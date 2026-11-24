@@ -6,7 +6,7 @@
 
 CanastaData es un proyecto desarrollado en Python que tiene como
 finalidad analizar la evolución del costo de la Canasta Básica Familiar
-de Alimentos en Panamá durante el periodo 2019-2025, considerando los
+de Alimentos en Panamá durante el periodo 2020-2025, considerando los
 cambios económicos ocurridos antes, durante y después de la pandemia de
 COVID-19.
 
@@ -37,7 +37,7 @@ composición de la canasta básica.
 
 Desarrollar un sistema de análisis de datos en Python que permita
 estudiar la evolución del costo de la canasta básica en Panamá entre
-2019 y 2025, relacionándolo con los cambios salariales para evaluar su
+2020 y 2025, relacionándolo con los cambios salariales para evaluar su
 impacto en la capacidad adquisitiva de la población.
 
 ## Estructura del proyecto
