@@ -1,6 +1,6 @@
 # CanastaData 🇵🇦
 
-## Sistema de Análisis de la Evolución de la Canasta Básica y el Poder Adquisitivo en Panamá (2019-2025)
+## Sistema de Análisis de la Evolución de la Canasta Básica y el Poder Adquisitivo en Panamá (2020-2025)
 
 ## Introducción
 
