@@ -91,10 +91,12 @@ Proyecto_Canasta_Basica/
 
 -   **Ministerio de Economía y Finanzas (MEF):** información histórica
     de la Canasta Básica Familiar de Alimentos.
+    https://www.mef.gob.pa/canasta-basica/
 -   **Instituto Nacional de Estadística y Censo (INEC):** información
     estadística sobre ingresos y salarios.
--   **Ministerio de Trabajo y Desarrollo Laboral (MITRADEL):**
-    información sobre salarios mínimos.
+    https://www.inec.gob.pa/Publicaciones/Default3.aspx?ID_PUBLICACION=1279&ID_CATEGORIA=5&ID_SUBCATEGORIA=39
+    https://www.inec.gob.pa/Publicaciones/Default3.aspx?ID_PUBLICACION=1417&ID_CATEGORIA=5&ID_SUBCATEGORIA=39
+    
 
 ## Resultados esperados
 
