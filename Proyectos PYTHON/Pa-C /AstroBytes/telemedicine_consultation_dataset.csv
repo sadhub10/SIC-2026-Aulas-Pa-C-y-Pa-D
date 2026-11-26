@@ -1,0 +1,501 @@
+consultation_id,patient_age,gender,specialty,consultation_mode,symptom,diagnosis,duration_minutes,prescription_given,follow_up_required,patient_satisfaction,consultation_date,source
+TC00001,85,Male,Dermatology,Video,Anxiety,Healthy,6,Yes,Yes,1,2025-05-28,Synthetic
+TC00002,60,Male,General Medicine,Video,Skin Rash,Dermatitis,48,No,No,2,2025-06-10,Synthetic
+TC00003,57,Male,Psychiatry,Audio,Headache,Stress,54,No,Yes,1,2025-09-12,Synthetic
+TC00004,25,Male,Pediatrics,Audio,Fever,Stress,33,No,Yes,3,2025-05-22,Synthetic
+TC00005,67,Female,Dermatology,Chat,Chest Pain,Migraine,16,Yes,Yes,1,2025-08-17,Synthetic
+TC00006,32,Female,Psychiatry,Video,Chest Pain,Dermatitis,25,Yes,No,1,2025-09-08,Synthetic
+TC00007,53,Male,Dermatology,Audio,Fever,Hypertension,36,No,No,3,2025-02-03,Synthetic
+TC00008,80,Female,Pediatrics,Audio,Headache,Hypertension,54,Yes,Yes,1,2025-03-13,Synthetic
+TC00009,27,Female,Psychiatry,Audio,Skin Rash,Viral Infection,57,Yes,No,3,2025-08-22,Synthetic
+TC00010,65,Male,Dermatology,Audio,Skin Rash,Hypertension,14,No,No,2,2025-04-05,Synthetic
+TC00011,23,Female,Psychiatry,Audio,Skin Rash,Healthy,24,Yes,No,1,2025-01-13,Synthetic
+TC00012,72,Female,Psychiatry,Audio,Chest Pain,Hypertension,21,Yes,No,3,2025-07-17,Synthetic
+TC00013,57,Male,Psychiatry,Audio,Anxiety,Migraine,18,Yes,Yes,1,2025-02-06,Synthetic
+TC00014,38,Male,Pediatrics,Audio,Anxiety,Healthy,55,No,Yes,3,2025-07-23,Synthetic
+TC00015,82,Male,General Medicine,Audio,Fever,Healthy,27,Yes,No,4,2025-03-28,Synthetic
+TC00016,28,Female,Psychiatry,Audio,Anxiety,Healthy,43,No,No,4,2025-05-24,Synthetic
+TC00017,64,Female,Pediatrics,Video,Cough,Hypertension,36,No,No,4,2025-01-08,Synthetic
+TC00018,22,Male,Cardiology,Chat,Fever,Healthy,26,Yes,Yes,3,2025-11-03,Synthetic
+TC00019,68,Female,Psychiatry,Audio,Anxiety,Viral Infection,35,No,Yes,5,2025-09-28,Synthetic
+TC00020,48,Female,Pediatrics,Chat,Fever,Viral Infection,19,No,No,4,2025-10-14,Synthetic
+TC00021,25,Male,Cardiology,Video,Cough,Migraine,10,No,No,3,2025-10-10,Synthetic
+TC00022,74,Male,Psychiatry,Video,Skin Rash,Hypertension,18,No,No,5,2025-12-15,Synthetic
+TC00023,37,Male,Dermatology,Chat,Chest Pain,Viral Infection,28,Yes,No,5,2025-06-08,Synthetic
+TC00024,45,Male,Dermatology,Chat,Chest Pain,Stress,43,No,Yes,3,2025-07-08,Synthetic
+TC00025,47,Female,General Medicine,Audio,Fever,Healthy,58,Yes,Yes,5,2025-02-04,Synthetic
+TC00026,30,Male,Psychiatry,Video,Anxiety,Hypertension,25,Yes,Yes,3,2025-02-07,Synthetic
+TC00027,52,Male,Pediatrics,Video,Cough,Stress,45,Yes,Yes,5,2025-09-05,Synthetic
+TC00028,37,Female,Pediatrics,Audio,Fever,Hypertension,56,No,Yes,3,2025-12-03,Synthetic
+TC00029,51,Female,Psychiatry,Audio,Skin Rash,Viral Infection,27,Yes,Yes,1,2025-10-27,Synthetic
+TC00030,58,Male,Psychiatry,Audio,Fever,Healthy,24,Yes,No,3,2025-09-16,Synthetic
+TC00031,23,Male,Dermatology,Chat,Chest Pain,Viral Infection,36,No,No,2,2025-01-09,Synthetic
+TC00032,72,Female,Psychiatry,Video,Chest Pain,Migraine,40,Yes,No,2,2025-11-28,Synthetic
+TC00033,50,Male,Cardiology,Video,Headache,Migraine,21,Yes,No,3,2025-10-26,Synthetic
+TC00034,67,Female,General Medicine,Audio,Cough,Dermatitis,37,Yes,No,3,2025-07-05,Synthetic
+TC00035,73,Female,Dermatology,Chat,Chest Pain,Migraine,19,No,No,4,2025-11-16,Synthetic
+TC00036,60,Female,General Medicine,Audio,Cough,Migraine,31,Yes,No,1,2025-02-04,Synthetic
+TC00037,62,Male,Cardiology,Audio,Chest Pain,Migraine,35,No,Yes,5,2025-12-03,Synthetic
+TC00038,35,Female,Pediatrics,Audio,Headache,Dermatitis,52,Yes,Yes,2,2025-04-14,Synthetic
+TC00039,32,Female,Psychiatry,Audio,Headache,Hypertension,22,No,No,2,2025-04-19,Synthetic
+TC00040,24,Female,Dermatology,Audio,Skin Rash,Dermatitis,49,Yes,No,5,2025-07-06,Synthetic
+TC00041,41,Female,General Medicine,Video,Fever,Dermatitis,46,No,Yes,3,2025-05-20,Synthetic
+TC00042,25,Female,General Medicine,Video,Chest Pain,Dermatitis,36,Yes,No,5,2025-08-07,Synthetic
+TC00043,59,Male,Psychiatry,Audio,Fever,Dermatitis,29,No,Yes,3,2025-08-09,Synthetic
+TC00044,20,Male,Psychiatry,Video,Headache,Migraine,55,No,No,4,2025-07-17,Synthetic
+TC00045,63,Male,General Medicine,Video,Fever,Hypertension,60,No,Yes,5,2025-08-11,Synthetic
+TC00046,62,Female,Cardiology,Video,Cough,Stress,45,Yes,No,2,2025-05-07,Synthetic
+TC00047,64,Female,Cardiology,Chat,Headache,Migraine,5,No,No,2,2025-11-11,Synthetic
+TC00048,34,Female,Pediatrics,Video,Chest Pain,Healthy,23,No,No,5,2025-04-01,Synthetic
+TC00049,34,Male,Psychiatry,Audio,Anxiety,Healthy,17,Yes,Yes,1,2025-11-06,Synthetic
+TC00050,80,Male,General Medicine,Video,Fever,Migraine,17,No,Yes,2,2025-08-22,Synthetic
+TC00051,43,Male,Dermatology,Audio,Cough,Dermatitis,19,Yes,No,5,2025-07-12,Synthetic
+TC00052,79,Female,Dermatology,Audio,Anxiety,Viral Infection,40,Yes,No,1,2025-03-23,Synthetic
+TC00053,49,Male,General Medicine,Video,Anxiety,Hypertension,60,Yes,No,4,2025-08-18,Synthetic
+TC00054,39,Female,General Medicine,Video,Skin Rash,Stress,46,Yes,No,3,2025-09-21,Synthetic
+TC00055,82,Female,Dermatology,Chat,Anxiety,Healthy,56,Yes,Yes,2,2025-08-13,Synthetic
+TC00056,37,Male,Pediatrics,Chat,Chest Pain,Stress,19,No,Yes,3,2025-01-27,Synthetic
+TC00057,36,Male,Pediatrics,Video,Cough,Hypertension,16,Yes,Yes,3,2025-04-28,Synthetic
+TC00058,64,Male,Cardiology,Audio,Chest Pain,Hypertension,24,No,Yes,3,2025-09-28,Synthetic
+TC00059,29,Female,Pediatrics,Audio,Skin Rash,Healthy,37,Yes,No,4,2025-06-18,Synthetic
+TC00060,78,Male,General Medicine,Video,Fever,Healthy,30,No,No,4,2025-01-17,Synthetic
+TC00061,29,Female,Dermatology,Chat,Headache,Viral Infection,30,Yes,No,4,2025-05-15,Synthetic
+TC00062,53,Female,General Medicine,Chat,Cough,Migraine,12,No,Yes,5,2025-10-22,Synthetic
+TC00063,38,Female,General Medicine,Chat,Fever,Hypertension,11,No,Yes,4,2025-06-11,Synthetic
+TC00064,55,Male,Pediatrics,Audio,Headache,Healthy,59,No,No,1,2025-12-06,Synthetic
+TC00065,69,Female,Dermatology,Audio,Headache,Healthy,43,No,No,2,2025-05-14,Synthetic
+TC00066,19,Male,Psychiatry,Video,Chest Pain,Healthy,33,No,Yes,2,2025-07-21,Synthetic
+TC00067,72,Male,General Medicine,Video,Headache,Hypertension,18,No,Yes,4,2025-09-19,Synthetic
+TC00068,52,Male,Cardiology,Chat,Cough,Stress,34,Yes,No,2,2025-07-10,Synthetic
+TC00069,19,Male,General Medicine,Chat,Anxiety,Healthy,19,No,Yes,1,2025-02-01,Synthetic
+TC00070,18,Female,Cardiology,Audio,Headache,Healthy,46,No,Yes,5,2025-10-28,Synthetic
+TC00071,56,Female,Dermatology,Chat,Headache,Dermatitis,50,No,Yes,1,2025-10-20,Synthetic
+TC00072,49,Female,Dermatology,Audio,Skin Rash,Hypertension,20,Yes,Yes,1,2025-09-10,Synthetic
+TC00073,40,Male,Cardiology,Video,Skin Rash,Stress,35,No,Yes,5,2025-02-27,Synthetic
+TC00074,48,Female,Psychiatry,Audio,Cough,Dermatitis,15,No,Yes,3,2025-04-11,Synthetic
+TC00075,33,Female,General Medicine,Chat,Anxiety,Migraine,23,No,No,3,2025-08-06,Synthetic
+TC00076,59,Female,Pediatrics,Audio,Headache,Viral Infection,35,No,Yes,1,2025-05-22,Synthetic
+TC00077,84,Female,General Medicine,Audio,Fever,Migraine,28,Yes,No,4,2025-03-27,Synthetic
+TC00078,82,Male,Dermatology,Audio,Anxiety,Migraine,29,Yes,No,4,2025-06-26,Synthetic
+TC00079,29,Female,Dermatology,Video,Cough,Dermatitis,58,No,Yes,5,2025-07-19,Synthetic
+TC00080,30,Female,General Medicine,Audio,Fever,Migraine,23,No,Yes,3,2025-04-26,Synthetic
+TC00081,82,Female,Pediatrics,Video,Skin Rash,Dermatitis,18,No,No,4,2025-09-04,Synthetic
+TC00082,72,Male,Pediatrics,Chat,Skin Rash,Dermatitis,49,No,No,1,2025-01-14,Synthetic
+TC00083,31,Female,Psychiatry,Video,Fever,Viral Infection,26,No,Yes,5,2025-05-03,Synthetic
+TC00084,72,Male,Pediatrics,Video,Skin Rash,Viral Infection,28,Yes,Yes,5,2025-07-21,Synthetic
+TC00085,57,Female,Cardiology,Chat,Skin Rash,Healthy,52,Yes,Yes,1,2025-06-07,Synthetic
+TC00086,62,Male,General Medicine,Chat,Anxiety,Viral Infection,8,Yes,Yes,2,2025-11-05,Synthetic
+TC00087,48,Female,Pediatrics,Video,Fever,Healthy,7,No,No,3,2025-08-12,Synthetic
+TC00088,85,Male,Cardiology,Video,Anxiety,Migraine,57,Yes,No,3,2025-10-26,Synthetic
+TC00089,24,Female,Pediatrics,Chat,Headache,Stress,59,No,Yes,2,2025-09-20,Synthetic
+TC00090,28,Female,Dermatology,Chat,Anxiety,Viral Infection,36,Yes,Yes,1,2025-06-12,Synthetic
+TC00091,82,Male,Pediatrics,Audio,Anxiety,Healthy,41,No,Yes,5,2025-02-21,Synthetic
+TC00092,37,Male,Dermatology,Video,Fever,Dermatitis,36,No,No,3,2025-11-01,Synthetic
+TC00093,20,Male,Cardiology,Audio,Headache,Healthy,39,Yes,No,2,2025-11-21,Synthetic
+TC00094,48,Male,Cardiology,Audio,Anxiety,Hypertension,39,Yes,Yes,3,2025-07-13,Synthetic
+TC00095,61,Male,General Medicine,Chat,Cough,Migraine,9,No,No,5,2025-12-10,Synthetic
+TC00096,66,Female,Cardiology,Video,Fever,Migraine,28,No,Yes,2,2025-09-22,Synthetic
+TC00097,26,Female,Pediatrics,Video,Fever,Hypertension,46,No,Yes,1,2025-12-07,Synthetic
+TC00098,19,Male,Cardiology,Audio,Chest Pain,Migraine,50,No,No,3,2025-11-13,Synthetic
+TC00099,35,Female,General Medicine,Audio,Cough,Migraine,56,Yes,No,1,2025-09-18,Synthetic
+TC00100,44,Female,Cardiology,Audio,Headache,Stress,25,No,No,4,2025-01-06,Synthetic
+TC00101,20,Female,Dermatology,Chat,Anxiety,Stress,38,No,No,4,2025-01-16,Synthetic
+TC00102,68,Female,General Medicine,Video,Skin Rash,Hypertension,45,Yes,No,3,2025-07-03,Synthetic
+TC00103,44,Male,Dermatology,Chat,Fever,Dermatitis,57,No,Yes,2,2025-08-04,Synthetic
+TC00104,80,Female,General Medicine,Audio,Cough,Healthy,21,No,Yes,4,2025-12-17,Synthetic
+TC00105,46,Female,Pediatrics,Video,Headache,Hypertension,54,No,No,1,2025-06-17,Synthetic
+TC00106,34,Male,Cardiology,Audio,Skin Rash,Dermatitis,14,No,Yes,3,2025-01-16,Synthetic
+TC00107,24,Female,Dermatology,Chat,Skin Rash,Dermatitis,50,No,Yes,1,2025-01-04,Synthetic
+TC00108,85,Female,Dermatology,Chat,Fever,Migraine,49,No,Yes,3,2025-04-05,Synthetic
+TC00109,34,Male,Psychiatry,Chat,Anxiety,Viral Infection,54,Yes,Yes,2,2025-01-20,Synthetic
+TC00110,27,Male,Psychiatry,Video,Skin Rash,Hypertension,9,Yes,No,5,2025-08-28,Synthetic
+TC00111,22,Male,General Medicine,Video,Chest Pain,Hypertension,29,No,Yes,1,2025-03-22,Synthetic
+TC00112,76,Female,Pediatrics,Chat,Skin Rash,Viral Infection,24,No,No,2,2025-01-08,Synthetic
+TC00113,62,Male,General Medicine,Chat,Fever,Hypertension,14,No,Yes,5,2025-11-25,Synthetic
+TC00114,84,Female,Dermatology,Chat,Cough,Dermatitis,16,Yes,No,4,2025-08-16,Synthetic
+TC00115,36,Male,Psychiatry,Audio,Anxiety,Viral Infection,30,No,No,1,2025-10-28,Synthetic
+TC00116,69,Male,Psychiatry,Audio,Headache,Viral Infection,31,No,No,4,2025-05-13,Synthetic
+TC00117,84,Female,Cardiology,Audio,Anxiety,Viral Infection,35,Yes,No,4,2025-05-23,Synthetic
+TC00118,65,Male,Cardiology,Audio,Anxiety,Healthy,60,Yes,No,3,2025-03-26,Synthetic
+TC00119,62,Female,Cardiology,Video,Headache,Stress,27,No,Yes,1,2025-07-07,Synthetic
+TC00120,64,Female,Psychiatry,Chat,Skin Rash,Stress,32,No,No,3,2025-07-13,Synthetic
+TC00121,52,Male,Pediatrics,Video,Cough,Migraine,13,Yes,Yes,4,2025-04-19,Synthetic
+TC00122,33,Female,Psychiatry,Chat,Headache,Stress,56,No,Yes,3,2025-10-10,Synthetic
+TC00123,39,Male,Cardiology,Video,Anxiety,Stress,6,No,Yes,3,2025-07-25,Synthetic
+TC00124,74,Female,Pediatrics,Chat,Headache,Stress,46,Yes,No,2,2025-04-28,Synthetic
+TC00125,58,Male,Psychiatry,Video,Skin Rash,Stress,16,Yes,No,4,2025-03-12,Synthetic
+TC00126,85,Female,Dermatology,Video,Cough,Dermatitis,60,No,Yes,3,2025-04-19,Synthetic
+TC00127,55,Female,Dermatology,Video,Headache,Viral Infection,44,No,No,1,2025-08-25,Synthetic
+TC00128,31,Female,General Medicine,Chat,Headache,Hypertension,5,No,Yes,1,2025-01-07,Synthetic
+TC00129,55,Female,Dermatology,Chat,Skin Rash,Migraine,7,No,No,2,2025-04-01,Synthetic
+TC00130,72,Female,General Medicine,Video,Fever,Migraine,50,No,No,1,2025-05-05,Synthetic
+TC00131,56,Male,General Medicine,Audio,Skin Rash,Migraine,41,Yes,No,3,2025-01-22,Synthetic
+TC00132,72,Male,General Medicine,Audio,Fever,Migraine,36,Yes,No,5,2025-11-08,Synthetic
+TC00133,47,Female,General Medicine,Audio,Chest Pain,Stress,29,No,No,5,2025-12-01,Synthetic
+TC00134,62,Male,Psychiatry,Audio,Headache,Hypertension,42,No,No,4,2025-07-12,Synthetic
+TC00135,61,Male,Dermatology,Audio,Fever,Migraine,45,No,Yes,1,2025-08-21,Synthetic
+TC00136,77,Male,General Medicine,Video,Anxiety,Migraine,52,Yes,Yes,4,2025-05-09,Synthetic
+TC00137,21,Female,Pediatrics,Video,Headache,Stress,23,No,Yes,1,2025-05-10,Synthetic
+TC00138,61,Male,Pediatrics,Audio,Skin Rash,Healthy,18,No,No,1,2025-07-25,Synthetic
+TC00139,48,Male,Pediatrics,Chat,Cough,Migraine,52,Yes,Yes,4,2025-08-01,Synthetic
+TC00140,31,Male,Pediatrics,Chat,Anxiety,Migraine,14,No,No,3,2025-12-17,Synthetic
+TC00141,32,Female,Psychiatry,Chat,Headache,Dermatitis,44,Yes,No,3,2025-10-03,Synthetic
+TC00142,69,Male,General Medicine,Video,Fever,Stress,11,No,Yes,5,2025-04-04,Synthetic
+TC00143,20,Female,Psychiatry,Audio,Cough,Hypertension,8,No,Yes,4,2025-07-06,Synthetic
+TC00144,75,Male,Pediatrics,Audio,Chest Pain,Healthy,47,No,Yes,4,2025-06-08,Synthetic
+TC00145,29,Female,Dermatology,Chat,Skin Rash,Migraine,46,Yes,No,1,2025-07-09,Synthetic
+TC00146,43,Female,Pediatrics,Video,Fever,Viral Infection,38,Yes,No,4,2025-10-28,Synthetic
+TC00147,71,Male,Cardiology,Video,Fever,Migraine,38,Yes,Yes,3,2025-03-22,Synthetic
+TC00148,64,Male,Psychiatry,Chat,Fever,Stress,12,Yes,Yes,2,2025-10-21,Synthetic
+TC00149,23,Female,Dermatology,Audio,Cough,Healthy,33,No,No,5,2025-04-15,Synthetic
+TC00150,27,Female,Psychiatry,Chat,Fever,Stress,18,Yes,Yes,1,2025-03-17,Synthetic
+TC00151,54,Female,General Medicine,Video,Chest Pain,Stress,60,Yes,Yes,2,2025-02-17,Synthetic
+TC00152,25,Female,Pediatrics,Video,Fever,Stress,13,Yes,Yes,1,2025-01-15,Synthetic
+TC00153,66,Female,General Medicine,Video,Skin Rash,Dermatitis,57,Yes,No,1,2025-05-11,Synthetic
+TC00154,22,Male,General Medicine,Audio,Fever,Viral Infection,34,No,No,2,2025-12-28,Synthetic
+TC00155,35,Female,Dermatology,Video,Headache,Hypertension,38,No,Yes,4,2025-03-20,Synthetic
+TC00156,35,Female,Dermatology,Video,Skin Rash,Dermatitis,49,Yes,No,5,2025-06-27,Synthetic
+TC00157,33,Male,Psychiatry,Video,Headache,Healthy,22,Yes,No,1,2025-03-25,Synthetic
+TC00158,61,Female,Pediatrics,Video,Headache,Hypertension,47,No,Yes,3,2025-09-09,Synthetic
+TC00159,48,Male,Dermatology,Audio,Headache,Viral Infection,10,Yes,No,2,2025-04-01,Synthetic
+TC00160,55,Male,Cardiology,Video,Anxiety,Hypertension,22,Yes,No,1,2025-12-16,Synthetic
+TC00161,33,Female,Cardiology,Chat,Chest Pain,Migraine,10,Yes,Yes,4,2025-02-08,Synthetic
+TC00162,52,Female,Cardiology,Audio,Skin Rash,Viral Infection,16,No,No,3,2025-01-20,Synthetic
+TC00163,23,Male,Cardiology,Audio,Fever,Viral Infection,23,Yes,No,5,2025-05-21,Synthetic
+TC00164,47,Female,Dermatology,Audio,Fever,Migraine,18,No,Yes,3,2025-09-24,Synthetic
+TC00165,82,Female,Cardiology,Chat,Chest Pain,Healthy,22,No,Yes,4,2025-11-10,Synthetic
+TC00166,45,Male,Cardiology,Audio,Cough,Migraine,41,Yes,No,3,2025-09-14,Synthetic
+TC00167,72,Male,Pediatrics,Video,Headache,Viral Infection,53,No,No,3,2025-07-18,Synthetic
+TC00168,22,Male,Pediatrics,Audio,Anxiety,Migraine,14,No,Yes,4,2025-05-21,Synthetic
+TC00169,52,Female,Dermatology,Audio,Chest Pain,Healthy,23,No,Yes,1,2025-05-06,Synthetic
+TC00170,45,Female,General Medicine,Audio,Fever,Viral Infection,37,Yes,No,4,2025-05-07,Synthetic
+TC00171,71,Female,Psychiatry,Chat,Headache,Viral Infection,10,No,No,5,2025-11-27,Synthetic
+TC00172,21,Female,Cardiology,Video,Headache,Migraine,42,Yes,Yes,4,2025-08-12,Synthetic
+TC00173,44,Male,Dermatology,Audio,Anxiety,Healthy,24,No,Yes,4,2025-07-05,Synthetic
+TC00174,41,Male,Pediatrics,Chat,Chest Pain,Migraine,21,No,Yes,3,2025-09-10,Synthetic
+TC00175,30,Male,Psychiatry,Video,Fever,Migraine,33,Yes,No,4,2025-07-17,Synthetic
+TC00176,30,Female,Cardiology,Video,Skin Rash,Hypertension,24,Yes,No,2,2025-03-20,Synthetic
+TC00177,47,Female,General Medicine,Chat,Skin Rash,Dermatitis,5,No,Yes,4,2025-12-07,Synthetic
+TC00178,74,Female,Psychiatry,Audio,Chest Pain,Dermatitis,5,Yes,No,5,2025-07-17,Synthetic
+TC00179,33,Female,Pediatrics,Chat,Headache,Stress,27,Yes,No,2,2025-02-10,Synthetic
+TC00180,54,Female,Dermatology,Video,Anxiety,Migraine,30,Yes,Yes,3,2025-02-25,Synthetic
+TC00181,38,Female,Psychiatry,Chat,Cough,Dermatitis,23,No,Yes,2,2025-04-26,Synthetic
+TC00182,58,Female,Pediatrics,Chat,Fever,Healthy,51,Yes,Yes,3,2025-07-02,Synthetic
+TC00183,69,Female,General Medicine,Video,Chest Pain,Migraine,40,No,Yes,3,2025-11-17,Synthetic
+TC00184,46,Male,Dermatology,Video,Headache,Stress,22,No,No,3,2025-06-03,Synthetic
+TC00185,39,Male,General Medicine,Audio,Chest Pain,Dermatitis,28,No,No,2,2025-12-19,Synthetic
+TC00186,75,Female,Pediatrics,Chat,Fever,Dermatitis,36,No,No,4,2025-08-09,Synthetic
+TC00187,24,Male,Psychiatry,Chat,Anxiety,Hypertension,59,Yes,No,1,2025-05-18,Synthetic
+TC00188,83,Male,Cardiology,Audio,Skin Rash,Dermatitis,45,Yes,Yes,2,2025-04-18,Synthetic
+TC00189,63,Male,Dermatology,Audio,Fever,Migraine,32,Yes,No,3,2025-04-21,Synthetic
+TC00190,41,Male,Pediatrics,Chat,Headache,Dermatitis,25,Yes,Yes,4,2025-06-13,Synthetic
+TC00191,40,Male,General Medicine,Chat,Fever,Healthy,30,No,No,1,2025-07-19,Synthetic
+TC00192,54,Female,Pediatrics,Audio,Skin Rash,Hypertension,23,No,Yes,5,2025-12-17,Synthetic
+TC00193,46,Female,Pediatrics,Video,Chest Pain,Dermatitis,38,Yes,Yes,2,2025-02-06,Synthetic
+TC00194,28,Male,Dermatology,Video,Anxiety,Migraine,26,No,Yes,2,2025-12-26,Synthetic
+TC00195,68,Male,Cardiology,Audio,Chest Pain,Migraine,35,No,No,1,2025-03-13,Synthetic
+TC00196,31,Female,Psychiatry,Video,Fever,Stress,23,Yes,No,1,2025-07-24,Synthetic
+TC00197,63,Male,Dermatology,Video,Anxiety,Migraine,45,No,No,1,2025-02-28,Synthetic
+TC00198,56,Female,Pediatrics,Video,Skin Rash,Migraine,13,No,No,4,2025-08-17,Synthetic
+TC00199,50,Female,General Medicine,Video,Cough,Migraine,30,No,Yes,1,2025-03-23,Synthetic
+TC00200,35,Female,Psychiatry,Chat,Fever,Dermatitis,49,No,No,5,2025-07-08,Synthetic
+TC00201,80,Male,Pediatrics,Audio,Skin Rash,Dermatitis,29,No,No,4,2025-05-21,Synthetic
+TC00202,73,Female,Pediatrics,Video,Chest Pain,Dermatitis,17,No,No,4,2025-06-19,Synthetic
+TC00203,79,Male,Dermatology,Audio,Fever,Stress,49,No,Yes,2,2025-08-05,Synthetic
+TC00204,29,Female,Cardiology,Audio,Fever,Viral Infection,25,Yes,No,1,2025-11-16,Synthetic
+TC00205,56,Male,Pediatrics,Video,Cough,Healthy,7,No,Yes,2,2025-11-26,Synthetic
+TC00206,74,Female,Cardiology,Video,Fever,Dermatitis,27,No,No,4,2025-11-05,Synthetic
+TC00207,20,Male,General Medicine,Video,Anxiety,Healthy,39,No,Yes,3,2025-05-04,Synthetic
+TC00208,40,Male,Cardiology,Chat,Anxiety,Dermatitis,41,Yes,Yes,3,2025-08-22,Synthetic
+TC00209,54,Female,Cardiology,Video,Fever,Hypertension,26,No,Yes,4,2025-06-25,Synthetic
+TC00210,30,Female,Psychiatry,Audio,Chest Pain,Dermatitis,43,No,Yes,2,2025-02-09,Synthetic
+TC00211,35,Female,Cardiology,Chat,Chest Pain,Healthy,35,Yes,No,2,2025-02-14,Synthetic
+TC00212,25,Male,Psychiatry,Chat,Skin Rash,Healthy,56,Yes,Yes,4,2025-10-10,Synthetic
+TC00213,38,Male,Pediatrics,Video,Chest Pain,Hypertension,41,Yes,No,3,2025-12-19,Synthetic
+TC00214,18,Female,Psychiatry,Video,Chest Pain,Migraine,34,Yes,Yes,1,2025-10-01,Synthetic
+TC00215,78,Female,Dermatology,Audio,Fever,Dermatitis,26,No,No,1,2025-08-03,Synthetic
+TC00216,69,Male,Pediatrics,Chat,Skin Rash,Migraine,12,Yes,Yes,5,2025-02-25,Synthetic
+TC00217,79,Male,Pediatrics,Audio,Chest Pain,Healthy,20,No,No,1,2025-11-22,Synthetic
+TC00218,80,Female,Psychiatry,Chat,Anxiety,Hypertension,7,Yes,Yes,2,2025-11-04,Synthetic
+TC00219,21,Female,Psychiatry,Video,Anxiety,Migraine,34,No,Yes,2,2025-09-12,Synthetic
+TC00220,18,Female,General Medicine,Chat,Chest Pain,Healthy,59,Yes,No,1,2025-04-09,Synthetic
+TC00221,42,Female,General Medicine,Video,Skin Rash,Hypertension,32,No,No,2,2025-11-02,Synthetic
+TC00222,68,Male,Cardiology,Chat,Fever,Hypertension,14,No,No,2,2025-08-16,Synthetic
+TC00223,37,Female,Cardiology,Audio,Skin Rash,Migraine,41,Yes,Yes,4,2025-03-22,Synthetic
+TC00224,38,Male,Dermatology,Audio,Fever,Stress,29,Yes,No,2,2025-04-09,Synthetic
+TC00225,65,Male,Pediatrics,Chat,Cough,Viral Infection,44,Yes,No,5,2025-10-22,Synthetic
+TC00226,62,Male,General Medicine,Video,Anxiety,Migraine,42,Yes,Yes,4,2025-12-05,Synthetic
+TC00227,61,Male,General Medicine,Video,Skin Rash,Dermatitis,23,Yes,Yes,5,2025-04-08,Synthetic
+TC00228,18,Male,Psychiatry,Audio,Skin Rash,Healthy,37,Yes,No,4,2025-03-24,Synthetic
+TC00229,41,Male,Pediatrics,Video,Fever,Migraine,49,No,Yes,4,2025-03-11,Synthetic
+TC00230,47,Male,Dermatology,Video,Chest Pain,Viral Infection,51,Yes,No,4,2025-06-01,Synthetic
+TC00231,69,Male,Pediatrics,Video,Cough,Stress,14,No,No,2,2025-06-19,Synthetic
+TC00232,37,Male,Pediatrics,Video,Anxiety,Healthy,43,No,No,5,2025-06-20,Synthetic
+TC00233,85,Male,General Medicine,Video,Fever,Migraine,35,Yes,Yes,1,2025-05-07,Synthetic
+TC00234,76,Male,Pediatrics,Video,Skin Rash,Dermatitis,27,No,Yes,4,2025-01-11,Synthetic
+TC00235,85,Female,Cardiology,Chat,Anxiety,Migraine,53,Yes,Yes,1,2025-10-24,Synthetic
+TC00236,82,Male,Dermatology,Chat,Skin Rash,Dermatitis,19,No,Yes,2,2025-05-03,Synthetic
+TC00237,82,Female,Dermatology,Audio,Headache,Dermatitis,29,Yes,No,4,2025-03-15,Synthetic
+TC00238,25,Female,Cardiology,Video,Chest Pain,Viral Infection,6,Yes,No,4,2025-11-12,Synthetic
+TC00239,67,Male,Cardiology,Video,Chest Pain,Migraine,35,Yes,No,3,2025-01-26,Synthetic
+TC00240,22,Male,Dermatology,Chat,Anxiety,Dermatitis,27,Yes,Yes,5,2025-02-11,Synthetic
+TC00241,63,Male,Pediatrics,Chat,Anxiety,Stress,5,Yes,No,5,2025-02-06,Synthetic
+TC00242,20,Female,Cardiology,Video,Chest Pain,Healthy,24,Yes,No,4,2025-11-12,Synthetic
+TC00243,85,Female,Dermatology,Audio,Anxiety,Dermatitis,15,No,Yes,4,2025-05-18,Synthetic
+TC00244,58,Female,General Medicine,Audio,Headache,Stress,60,No,Yes,2,2025-11-14,Synthetic
+TC00245,69,Female,Psychiatry,Chat,Cough,Viral Infection,58,Yes,Yes,4,2025-07-22,Synthetic
+TC00246,46,Female,General Medicine,Audio,Anxiety,Healthy,53,Yes,Yes,4,2025-10-04,Synthetic
+TC00247,65,Female,Dermatology,Video,Anxiety,Healthy,14,No,No,1,2025-06-16,Synthetic
+TC00248,75,Male,Cardiology,Chat,Headache,Migraine,17,No,Yes,4,2025-10-10,Synthetic
+TC00249,32,Female,Cardiology,Audio,Headache,Stress,40,Yes,No,1,2025-02-04,Synthetic
+TC00250,70,Male,Psychiatry,Audio,Fever,Hypertension,28,No,Yes,3,2025-02-21,Synthetic
+TC00251,73,Male,Pediatrics,Audio,Fever,Dermatitis,35,No,No,5,2025-03-19,Synthetic
+TC00252,29,Male,Cardiology,Chat,Fever,Dermatitis,60,Yes,No,1,2025-12-28,Synthetic
+TC00253,75,Male,Pediatrics,Chat,Headache,Dermatitis,48,Yes,Yes,1,2025-02-19,Synthetic
+TC00254,34,Female,Dermatology,Chat,Fever,Healthy,53,Yes,No,2,2025-07-25,Synthetic
+TC00255,69,Female,Dermatology,Video,Headache,Hypertension,28,No,Yes,3,2025-05-12,Synthetic
+TC00256,82,Male,General Medicine,Video,Cough,Viral Infection,45,No,Yes,5,2025-03-17,Synthetic
+TC00257,44,Male,Psychiatry,Audio,Anxiety,Viral Infection,27,No,Yes,4,2025-06-15,Synthetic
+TC00258,85,Female,Pediatrics,Audio,Cough,Stress,8,No,Yes,2,2025-08-19,Synthetic
+TC00259,30,Female,Pediatrics,Chat,Anxiety,Healthy,45,No,No,1,2025-01-10,Synthetic
+TC00260,24,Female,General Medicine,Video,Anxiety,Hypertension,17,Yes,Yes,1,2025-10-07,Synthetic
+TC00261,42,Female,Pediatrics,Chat,Fever,Hypertension,55,No,No,3,2025-12-03,Synthetic
+TC00262,42,Female,Psychiatry,Audio,Headache,Hypertension,44,No,Yes,1,2025-07-09,Synthetic
+TC00263,54,Male,Pediatrics,Chat,Skin Rash,Healthy,53,No,No,2,2025-08-09,Synthetic
+TC00264,31,Female,Psychiatry,Chat,Headache,Migraine,23,Yes,Yes,5,2025-06-10,Synthetic
+TC00265,77,Female,Psychiatry,Video,Fever,Stress,32,Yes,Yes,4,2025-08-18,Synthetic
+TC00266,56,Male,Cardiology,Video,Fever,Healthy,47,No,Yes,4,2025-04-13,Synthetic
+TC00267,49,Male,Psychiatry,Audio,Cough,Stress,6,No,Yes,1,2025-07-04,Synthetic
+TC00268,46,Female,Pediatrics,Chat,Anxiety,Hypertension,6,No,No,4,2025-04-26,Synthetic
+TC00269,33,Female,Pediatrics,Video,Headache,Migraine,8,No,No,2,2025-03-02,Synthetic
+TC00270,19,Male,Dermatology,Chat,Headache,Dermatitis,59,No,Yes,1,2025-01-21,Synthetic
+TC00271,47,Female,Cardiology,Chat,Fever,Healthy,51,No,No,3,2025-05-12,Synthetic
+TC00272,41,Male,Dermatology,Audio,Fever,Stress,18,No,Yes,3,2025-03-24,Synthetic
+TC00273,33,Male,Pediatrics,Audio,Cough,Stress,44,Yes,Yes,1,2025-01-01,Synthetic
+TC00274,79,Male,Psychiatry,Audio,Cough,Stress,57,No,No,5,2025-03-26,Synthetic
+TC00275,63,Female,Psychiatry,Audio,Fever,Stress,36,Yes,Yes,1,2025-12-25,Synthetic
+TC00276,72,Female,Pediatrics,Video,Fever,Viral Infection,53,No,Yes,3,2025-07-04,Synthetic
+TC00277,30,Male,Pediatrics,Video,Skin Rash,Migraine,37,Yes,Yes,5,2025-01-23,Synthetic
+TC00278,84,Female,Psychiatry,Video,Headache,Hypertension,13,No,No,4,2025-09-08,Synthetic
+TC00279,28,Male,Cardiology,Video,Anxiety,Hypertension,28,Yes,No,5,2025-04-03,Synthetic
+TC00280,75,Female,Pediatrics,Video,Cough,Dermatitis,20,No,No,5,2025-12-10,Synthetic
+TC00281,32,Male,Psychiatry,Audio,Headache,Stress,19,No,Yes,3,2025-03-15,Synthetic
+TC00282,31,Male,Dermatology,Video,Cough,Migraine,24,No,Yes,4,2025-06-08,Synthetic
+TC00283,31,Male,Pediatrics,Video,Skin Rash,Dermatitis,38,No,Yes,3,2025-02-12,Synthetic
+TC00284,82,Male,Psychiatry,Audio,Headache,Viral Infection,19,No,Yes,3,2025-06-05,Synthetic
+TC00285,71,Female,Dermatology,Video,Skin Rash,Stress,35,Yes,No,1,2025-09-25,Synthetic
+TC00286,27,Female,Psychiatry,Chat,Cough,Healthy,56,No,No,1,2025-02-08,Synthetic
+TC00287,65,Male,Dermatology,Chat,Cough,Stress,58,No,No,4,2025-03-07,Synthetic
+TC00288,78,Female,Dermatology,Audio,Cough,Healthy,12,Yes,Yes,3,2025-06-21,Synthetic
+TC00289,51,Male,Dermatology,Video,Skin Rash,Hypertension,46,No,Yes,1,2025-06-27,Synthetic
+TC00290,57,Male,Psychiatry,Audio,Fever,Dermatitis,20,No,Yes,3,2025-04-27,Synthetic
+TC00291,54,Female,Pediatrics,Chat,Chest Pain,Healthy,21,Yes,No,1,2025-02-15,Synthetic
+TC00292,46,Female,Psychiatry,Video,Anxiety,Healthy,18,No,No,1,2025-12-12,Synthetic
+TC00293,43,Male,General Medicine,Video,Headache,Dermatitis,50,Yes,Yes,1,2025-01-04,Synthetic
+TC00294,20,Female,Pediatrics,Audio,Cough,Viral Infection,56,Yes,Yes,1,2025-08-25,Synthetic
+TC00295,48,Female,General Medicine,Chat,Fever,Viral Infection,57,No,Yes,2,2025-12-13,Synthetic
+TC00296,75,Male,Dermatology,Video,Chest Pain,Hypertension,20,No,No,3,2025-04-01,Synthetic
+TC00297,47,Female,Psychiatry,Video,Skin Rash,Healthy,43,Yes,Yes,1,2025-12-09,Synthetic
+TC00298,39,Female,Dermatology,Chat,Fever,Healthy,16,Yes,Yes,5,2025-09-04,Synthetic
+TC00299,19,Male,Psychiatry,Chat,Chest Pain,Dermatitis,40,Yes,No,5,2025-10-17,Synthetic
+TC00300,73,Male,Pediatrics,Chat,Skin Rash,Dermatitis,19,No,Yes,2,2025-11-24,Synthetic
+TC00301,60,Male,Pediatrics,Chat,Headache,Stress,31,No,No,3,2025-02-12,Synthetic
+TC00302,28,Female,Dermatology,Audio,Headache,Healthy,38,No,No,5,2025-03-19,Synthetic
+TC00303,46,Female,Cardiology,Audio,Headache,Migraine,24,No,Yes,5,2025-05-03,Synthetic
+TC00304,53,Female,Cardiology,Video,Cough,Migraine,17,No,No,5,2025-08-03,Synthetic
+TC00305,23,Male,Cardiology,Video,Skin Rash,Migraine,48,No,Yes,3,2025-03-05,Synthetic
+TC00306,64,Male,Pediatrics,Chat,Chest Pain,Stress,53,Yes,Yes,3,2025-08-18,Synthetic
+TC00307,59,Male,Pediatrics,Audio,Fever,Healthy,13,No,Yes,4,2025-03-26,Synthetic
+TC00308,64,Female,Psychiatry,Chat,Chest Pain,Stress,9,No,No,4,2025-10-17,Synthetic
+TC00309,73,Male,Cardiology,Audio,Anxiety,Migraine,18,No,Yes,2,2025-08-04,Synthetic
+TC00310,20,Male,Pediatrics,Chat,Headache,Dermatitis,44,No,Yes,3,2025-07-18,Synthetic
+TC00311,41,Female,Cardiology,Video,Cough,Stress,8,No,No,5,2025-02-15,Synthetic
+TC00312,63,Female,General Medicine,Chat,Cough,Viral Infection,19,Yes,Yes,2,2025-11-11,Synthetic
+TC00313,79,Female,Pediatrics,Video,Fever,Viral Infection,57,No,No,4,2025-05-19,Synthetic
+TC00314,19,Male,Cardiology,Audio,Chest Pain,Viral Infection,20,Yes,No,3,2025-09-09,Synthetic
+TC00315,78,Male,Pediatrics,Chat,Headache,Healthy,28,No,Yes,3,2025-11-17,Synthetic
+TC00316,34,Female,Dermatology,Audio,Anxiety,Migraine,12,No,Yes,5,2025-12-05,Synthetic
+TC00317,22,Male,Pediatrics,Chat,Fever,Migraine,5,Yes,No,2,2025-09-26,Synthetic
+TC00318,28,Female,Dermatology,Audio,Fever,Hypertension,55,Yes,Yes,4,2025-11-27,Synthetic
+TC00319,81,Male,Pediatrics,Video,Headache,Migraine,9,Yes,Yes,5,2025-03-12,Synthetic
+TC00320,45,Male,Pediatrics,Audio,Skin Rash,Viral Infection,7,No,No,4,2025-07-16,Synthetic
+TC00321,54,Female,Cardiology,Video,Skin Rash,Stress,31,Yes,Yes,3,2025-03-06,Synthetic
+TC00322,82,Female,Psychiatry,Audio,Anxiety,Dermatitis,14,No,Yes,1,2025-10-24,Synthetic
+TC00323,35,Female,Cardiology,Chat,Headache,Migraine,48,Yes,Yes,5,2025-06-13,Synthetic
+TC00324,38,Male,Pediatrics,Video,Chest Pain,Dermatitis,10,Yes,No,1,2025-05-07,Synthetic
+TC00325,62,Female,Dermatology,Audio,Headache,Stress,31,No,Yes,3,2025-03-24,Synthetic
+TC00326,61,Male,Dermatology,Audio,Skin Rash,Viral Infection,42,No,No,1,2025-11-09,Synthetic
+TC00327,84,Female,Dermatology,Chat,Anxiety,Migraine,17,No,No,4,2025-04-01,Synthetic
+TC00328,24,Male,Psychiatry,Chat,Cough,Viral Infection,24,Yes,No,3,2025-07-17,Synthetic
+TC00329,77,Female,Pediatrics,Audio,Fever,Migraine,55,Yes,Yes,3,2025-11-21,Synthetic
+TC00330,68,Male,General Medicine,Video,Headache,Viral Infection,59,Yes,No,4,2025-12-08,Synthetic
+TC00331,19,Male,Dermatology,Video,Chest Pain,Dermatitis,40,No,No,3,2025-05-10,Synthetic
+TC00332,82,Male,Pediatrics,Audio,Cough,Healthy,34,No,Yes,5,2025-07-11,Synthetic
+TC00333,52,Female,General Medicine,Video,Chest Pain,Stress,35,Yes,Yes,2,2025-10-13,Synthetic
+TC00334,45,Female,Dermatology,Audio,Cough,Dermatitis,55,No,No,4,2025-02-22,Synthetic
+TC00335,42,Female,Psychiatry,Video,Cough,Stress,15,No,Yes,2,2025-09-28,Synthetic
+TC00336,53,Female,Cardiology,Chat,Anxiety,Migraine,41,No,Yes,5,2025-03-24,Synthetic
+TC00337,73,Female,Dermatology,Video,Chest Pain,Stress,35,Yes,No,5,2025-05-20,Synthetic
+TC00338,44,Male,General Medicine,Chat,Anxiety,Viral Infection,50,Yes,Yes,2,2025-07-20,Synthetic
+TC00339,19,Female,General Medicine,Video,Headache,Stress,46,No,No,3,2025-05-22,Synthetic
+TC00340,79,Female,Dermatology,Video,Cough,Hypertension,10,No,Yes,1,2025-05-11,Synthetic
+TC00341,23,Male,Psychiatry,Chat,Cough,Viral Infection,51,Yes,No,1,2025-07-12,Synthetic
+TC00342,36,Female,General Medicine,Audio,Headache,Viral Infection,24,Yes,No,1,2025-11-16,Synthetic
+TC00343,63,Female,Psychiatry,Audio,Skin Rash,Dermatitis,57,Yes,Yes,5,2025-06-03,Synthetic
+TC00344,35,Female,Pediatrics,Chat,Chest Pain,Viral Infection,57,No,No,2,2025-05-03,Synthetic
+TC00345,79,Male,Psychiatry,Chat,Fever,Stress,27,No,No,2,2025-10-27,Synthetic
+TC00346,22,Male,Dermatology,Audio,Fever,Dermatitis,54,Yes,No,4,2025-09-21,Synthetic
+TC00347,78,Male,General Medicine,Chat,Anxiety,Viral Infection,55,Yes,No,5,2025-01-20,Synthetic
+TC00348,62,Male,Psychiatry,Audio,Cough,Hypertension,37,Yes,Yes,4,2025-10-16,Synthetic
+TC00349,69,Male,Pediatrics,Video,Chest Pain,Healthy,36,Yes,Yes,4,2025-04-17,Synthetic
+TC00350,50,Female,General Medicine,Chat,Anxiety,Stress,37,Yes,No,4,2025-04-28,Synthetic
+TC00351,22,Male,Cardiology,Chat,Cough,Dermatitis,30,No,No,4,2025-02-12,Synthetic
+TC00352,63,Male,Dermatology,Video,Fever,Stress,11,Yes,Yes,1,2025-06-19,Synthetic
+TC00353,23,Female,Psychiatry,Audio,Skin Rash,Hypertension,15,Yes,No,1,2025-10-25,Synthetic
+TC00354,75,Male,Dermatology,Audio,Cough,Migraine,44,No,No,2,2025-08-11,Synthetic
+TC00355,61,Female,Psychiatry,Video,Chest Pain,Dermatitis,5,Yes,No,3,2025-02-16,Synthetic
+TC00356,18,Male,Dermatology,Chat,Skin Rash,Hypertension,22,No,Yes,1,2025-11-07,Synthetic
+TC00357,43,Female,Pediatrics,Audio,Headache,Dermatitis,39,Yes,No,5,2025-10-03,Synthetic
+TC00358,57,Male,Psychiatry,Video,Fever,Stress,14,No,No,2,2025-08-03,Synthetic
+TC00359,60,Female,General Medicine,Video,Headache,Viral Infection,21,Yes,Yes,4,2025-08-09,Synthetic
+TC00360,59,Female,Psychiatry,Audio,Skin Rash,Dermatitis,46,Yes,No,3,2025-04-21,Synthetic
+TC00361,81,Male,General Medicine,Video,Cough,Migraine,52,No,No,3,2025-12-24,Synthetic
+TC00362,43,Female,General Medicine,Video,Headache,Dermatitis,32,No,No,2,2025-07-18,Synthetic
+TC00363,73,Female,Cardiology,Video,Anxiety,Viral Infection,37,No,No,2,2025-06-09,Synthetic
+TC00364,67,Female,General Medicine,Audio,Cough,Stress,43,Yes,No,5,2025-09-21,Synthetic
+TC00365,75,Male,General Medicine,Chat,Chest Pain,Healthy,29,No,No,5,2025-08-13,Synthetic
+TC00366,81,Male,Cardiology,Chat,Cough,Dermatitis,52,No,Yes,3,2025-03-26,Synthetic
+TC00367,52,Male,Psychiatry,Chat,Anxiety,Stress,52,No,No,5,2025-02-09,Synthetic
+TC00368,81,Male,General Medicine,Chat,Headache,Migraine,16,No,Yes,3,2025-02-04,Synthetic
+TC00369,29,Female,Pediatrics,Chat,Skin Rash,Viral Infection,33,Yes,No,3,2025-05-18,Synthetic
+TC00370,77,Male,Pediatrics,Chat,Cough,Viral Infection,22,Yes,Yes,1,2025-01-02,Synthetic
+TC00371,82,Female,Pediatrics,Audio,Skin Rash,Stress,26,No,No,2,2025-04-15,Synthetic
+TC00372,22,Male,General Medicine,Chat,Anxiety,Healthy,44,Yes,No,4,2025-01-16,Synthetic
+TC00373,19,Male,Cardiology,Audio,Cough,Healthy,16,No,No,3,2025-04-05,Synthetic
+TC00374,44,Male,General Medicine,Chat,Fever,Healthy,9,No,Yes,2,2025-05-24,Synthetic
+TC00375,53,Female,Dermatology,Chat,Fever,Dermatitis,39,No,No,4,2025-02-17,Synthetic
+TC00376,28,Male,Dermatology,Video,Headache,Stress,33,No,No,1,2025-06-13,Synthetic
+TC00377,66,Male,General Medicine,Chat,Headache,Healthy,50,No,No,4,2025-10-27,Synthetic
+TC00378,58,Female,Pediatrics,Video,Skin Rash,Dermatitis,14,Yes,Yes,3,2025-10-16,Synthetic
+TC00379,62,Male,Psychiatry,Chat,Cough,Healthy,29,Yes,No,1,2025-03-15,Synthetic
+TC00380,70,Female,Cardiology,Chat,Skin Rash,Stress,38,No,Yes,3,2025-07-08,Synthetic
+TC00381,40,Female,General Medicine,Audio,Fever,Viral Infection,34,No,Yes,1,2025-01-06,Synthetic
+TC00382,64,Female,Psychiatry,Audio,Skin Rash,Healthy,57,No,No,2,2025-11-01,Synthetic
+TC00383,59,Male,Pediatrics,Video,Skin Rash,Stress,30,Yes,No,5,2025-04-03,Synthetic
+TC00384,50,Male,Cardiology,Audio,Cough,Viral Infection,22,Yes,Yes,3,2025-03-24,Synthetic
+TC00385,77,Female,Cardiology,Video,Fever,Healthy,13,Yes,No,2,2025-04-07,Synthetic
+TC00386,38,Female,Pediatrics,Chat,Chest Pain,Healthy,55,Yes,No,2,2025-05-09,Synthetic
+TC00387,74,Male,Cardiology,Chat,Headache,Stress,48,No,Yes,4,2025-01-27,Synthetic
+TC00388,30,Male,Dermatology,Video,Fever,Viral Infection,53,Yes,No,3,2025-08-28,Synthetic
+TC00389,81,Male,General Medicine,Video,Chest Pain,Viral Infection,28,No,Yes,5,2025-07-20,Synthetic
+TC00390,74,Female,General Medicine,Chat,Fever,Viral Infection,9,Yes,Yes,2,2025-11-28,Synthetic
+TC00391,30,Female,Dermatology,Chat,Chest Pain,Hypertension,42,Yes,Yes,4,2025-03-01,Synthetic
+TC00392,83,Female,Pediatrics,Chat,Cough,Viral Infection,24,Yes,Yes,5,2025-02-15,Synthetic
+TC00393,59,Male,Cardiology,Audio,Anxiety,Stress,50,No,No,3,2025-09-28,Synthetic
+TC00394,38,Male,Cardiology,Video,Anxiety,Migraine,12,Yes,No,1,2025-10-01,Synthetic
+TC00395,43,Female,Cardiology,Audio,Chest Pain,Stress,29,Yes,No,2,2025-03-23,Synthetic
+TC00396,84,Male,Pediatrics,Video,Headache,Stress,11,No,No,3,2025-12-01,Synthetic
+TC00397,81,Female,General Medicine,Video,Headache,Stress,27,No,No,3,2025-11-13,Synthetic
+TC00398,27,Male,General Medicine,Video,Headache,Dermatitis,57,No,Yes,2,2025-05-28,Synthetic
+TC00399,73,Female,General Medicine,Video,Skin Rash,Migraine,5,Yes,Yes,1,2025-03-12,Synthetic
+TC00400,38,Male,Pediatrics,Audio,Headache,Healthy,45,Yes,Yes,3,2025-12-28,Synthetic
+TC00401,41,Female,Psychiatry,Video,Anxiety,Stress,17,Yes,No,5,2025-07-09,Synthetic
+TC00402,33,Female,Cardiology,Chat,Skin Rash,Migraine,25,No,No,4,2025-03-22,Synthetic
+TC00403,25,Male,Cardiology,Audio,Anxiety,Healthy,40,No,No,4,2025-11-24,Synthetic
+TC00404,80,Male,Psychiatry,Chat,Chest Pain,Migraine,31,No,No,4,2025-03-06,Synthetic
+TC00405,66,Male,General Medicine,Audio,Anxiety,Viral Infection,54,No,Yes,1,2025-11-22,Synthetic
+TC00406,38,Female,Cardiology,Video,Cough,Healthy,44,Yes,Yes,4,2025-01-10,Synthetic
+TC00407,67,Female,Pediatrics,Video,Skin Rash,Migraine,24,No,No,4,2025-03-14,Synthetic
+TC00408,84,Female,General Medicine,Video,Cough,Stress,58,Yes,Yes,4,2025-07-18,Synthetic
+TC00409,29,Female,Cardiology,Video,Headache,Hypertension,9,Yes,No,1,2025-07-27,Synthetic
+TC00410,45,Male,Pediatrics,Audio,Skin Rash,Viral Infection,44,No,Yes,3,2025-01-21,Synthetic
+TC00411,26,Female,Cardiology,Audio,Headache,Dermatitis,46,No,Yes,1,2025-03-05,Synthetic
+TC00412,82,Female,Dermatology,Chat,Skin Rash,Hypertension,34,Yes,Yes,5,2025-11-10,Synthetic
+TC00413,27,Female,Psychiatry,Video,Skin Rash,Viral Infection,28,No,No,2,2025-02-24,Synthetic
+TC00414,75,Female,Psychiatry,Audio,Chest Pain,Stress,8,No,Yes,5,2025-02-25,Synthetic
+TC00415,28,Male,Psychiatry,Audio,Anxiety,Dermatitis,37,No,No,4,2025-12-17,Synthetic
+TC00416,66,Male,General Medicine,Audio,Skin Rash,Hypertension,12,No,No,5,2025-02-03,Synthetic
+TC00417,76,Male,Cardiology,Audio,Anxiety,Stress,27,Yes,Yes,3,2025-05-06,Synthetic
+TC00418,58,Female,Pediatrics,Chat,Anxiety,Healthy,6,Yes,Yes,5,2025-09-04,Synthetic
+TC00419,56,Male,Pediatrics,Audio,Headache,Hypertension,20,Yes,No,5,2025-02-19,Synthetic
+TC00420,73,Female,Pediatrics,Audio,Skin Rash,Dermatitis,9,Yes,No,5,2025-04-15,Synthetic
+TC00421,54,Male,Dermatology,Audio,Anxiety,Healthy,56,Yes,Yes,3,2025-11-03,Synthetic
+TC00422,60,Male,Cardiology,Audio,Cough,Hypertension,44,Yes,No,3,2025-04-21,Synthetic
+TC00423,65,Female,General Medicine,Chat,Cough,Migraine,44,Yes,Yes,1,2025-09-12,Synthetic
+TC00424,56,Female,Psychiatry,Video,Skin Rash,Viral Infection,6,No,No,3,2025-02-15,Synthetic
+TC00425,18,Male,Cardiology,Video,Skin Rash,Stress,54,Yes,No,2,2025-11-14,Synthetic
+TC00426,27,Female,Psychiatry,Chat,Cough,Dermatitis,19,Yes,Yes,4,2025-04-28,Synthetic
+TC00427,75,Female,Cardiology,Video,Chest Pain,Stress,45,No,No,4,2025-01-25,Synthetic
+TC00428,72,Female,Pediatrics,Video,Anxiety,Viral Infection,38,Yes,Yes,3,2025-09-04,Synthetic
+TC00429,53,Female,General Medicine,Audio,Cough,Hypertension,50,Yes,Yes,3,2025-01-15,Synthetic
+TC00430,79,Female,General Medicine,Chat,Fever,Dermatitis,6,Yes,Yes,4,2025-09-23,Synthetic
+TC00431,65,Male,Pediatrics,Video,Fever,Migraine,49,Yes,No,1,2025-07-15,Synthetic
+TC00432,62,Male,Cardiology,Video,Anxiety,Healthy,59,No,Yes,2,2025-02-09,Synthetic
+TC00433,68,Male,Cardiology,Audio,Chest Pain,Migraine,29,Yes,No,1,2025-11-10,Synthetic
+TC00434,21,Male,Pediatrics,Chat,Chest Pain,Migraine,14,Yes,Yes,1,2025-11-13,Synthetic
+TC00435,58,Male,Dermatology,Video,Skin Rash,Migraine,33,Yes,No,5,2025-12-19,Synthetic
+TC00436,39,Male,Dermatology,Video,Fever,Hypertension,22,No,No,3,2025-02-17,Synthetic
+TC00437,73,Male,Dermatology,Video,Skin Rash,Stress,36,Yes,Yes,3,2025-02-11,Synthetic
+TC00438,38,Female,Dermatology,Video,Skin Rash,Viral Infection,9,Yes,No,1,2025-02-22,Synthetic
+TC00439,75,Male,Pediatrics,Audio,Headache,Migraine,7,No,No,5,2025-10-16,Synthetic
+TC00440,80,Male,Pediatrics,Audio,Fever,Healthy,14,Yes,No,5,2025-07-10,Synthetic
+TC00441,51,Female,Dermatology,Chat,Cough,Dermatitis,11,No,No,3,2025-11-19,Synthetic
+TC00442,76,Male,Cardiology,Video,Headache,Healthy,24,Yes,Yes,1,2025-01-12,Synthetic
+TC00443,24,Male,Pediatrics,Audio,Skin Rash,Migraine,16,No,No,3,2025-11-26,Synthetic
+TC00444,62,Female,General Medicine,Chat,Fever,Hypertension,23,Yes,Yes,3,2025-10-09,Synthetic
+TC00445,41,Female,Dermatology,Video,Headache,Healthy,51,No,No,4,2025-07-16,Synthetic
+TC00446,54,Male,Dermatology,Video,Skin Rash,Migraine,32,Yes,No,1,2025-01-03,Synthetic
+TC00447,84,Male,General Medicine,Chat,Anxiety,Migraine,53,No,No,1,2025-07-18,Synthetic
+TC00448,62,Female,Cardiology,Chat,Fever,Dermatitis,31,Yes,Yes,5,2025-02-07,Synthetic
+TC00449,36,Male,Pediatrics,Chat,Skin Rash,Viral Infection,26,Yes,No,1,2025-06-22,Synthetic
+TC00450,79,Female,Cardiology,Audio,Cough,Viral Infection,40,Yes,No,2,2025-01-23,Synthetic
+TC00451,83,Female,Pediatrics,Video,Cough,Healthy,52,Yes,Yes,1,2025-09-14,Synthetic
+TC00452,38,Male,Dermatology,Audio,Skin Rash,Migraine,42,Yes,No,5,2025-07-02,Synthetic
+TC00453,75,Female,Pediatrics,Chat,Cough,Dermatitis,49,Yes,Yes,5,2025-07-18,Synthetic
+TC00454,30,Male,Pediatrics,Chat,Fever,Viral Infection,31,No,No,3,2025-01-24,Synthetic
+TC00455,41,Male,General Medicine,Audio,Anxiety,Hypertension,41,No,No,1,2025-08-03,Synthetic
+TC00456,83,Female,General Medicine,Video,Skin Rash,Dermatitis,5,Yes,Yes,3,2025-06-01,Synthetic
+TC00457,46,Male,Dermatology,Audio,Anxiety,Hypertension,27,Yes,No,4,2025-09-28,Synthetic
+TC00458,73,Female,Cardiology,Chat,Chest Pain,Viral Infection,40,No,No,2,2025-12-19,Synthetic
+TC00459,32,Female,Pediatrics,Chat,Headache,Migraine,31,No,Yes,4,2025-06-11,Synthetic
+TC00460,75,Female,Psychiatry,Chat,Chest Pain,Migraine,37,Yes,Yes,4,2025-07-19,Synthetic
+TC00461,31,Female,General Medicine,Audio,Headache,Viral Infection,18,Yes,No,1,2025-10-21,Synthetic
+TC00462,83,Female,General Medicine,Chat,Fever,Healthy,15,Yes,No,3,2025-06-19,Synthetic
+TC00463,63,Female,Cardiology,Audio,Headache,Viral Infection,59,Yes,Yes,3,2025-02-04,Synthetic
+TC00464,34,Male,Cardiology,Video,Headache,Stress,55,Yes,No,1,2025-05-08,Synthetic
+TC00465,43,Male,Pediatrics,Video,Fever,Hypertension,5,Yes,No,1,2025-12-26,Synthetic
+TC00466,71,Male,General Medicine,Video,Fever,Dermatitis,13,No,No,4,2025-06-10,Synthetic
+TC00467,62,Male,General Medicine,Audio,Chest Pain,Migraine,34,No,No,5,2025-03-19,Synthetic
+TC00468,47,Female,Pediatrics,Audio,Fever,Stress,47,No,Yes,4,2025-12-17,Synthetic
+TC00469,68,Male,Pediatrics,Audio,Headache,Viral Infection,8,No,No,4,2025-09-06,Synthetic
+TC00470,80,Male,General Medicine,Audio,Chest Pain,Viral Infection,28,Yes,No,2,2025-12-02,Synthetic
+TC00471,67,Male,Cardiology,Video,Anxiety,Stress,18,No,No,4,2025-07-26,Synthetic
+TC00472,76,Female,Psychiatry,Audio,Cough,Hypertension,60,Yes,No,2,2025-04-01,Synthetic
+TC00473,24,Female,Pediatrics,Audio,Skin Rash,Stress,14,No,Yes,3,2025-06-08,Synthetic
+TC00474,24,Female,Dermatology,Audio,Anxiety,Migraine,10,No,Yes,4,2025-08-28,Synthetic
+TC00475,40,Female,Pediatrics,Chat,Chest Pain,Stress,30,Yes,Yes,5,2025-03-21,Synthetic
+TC00476,78,Female,Cardiology,Video,Anxiety,Migraine,29,Yes,No,3,2025-03-01,Synthetic
+TC00477,75,Female,Pediatrics,Chat,Anxiety,Migraine,22,Yes,No,1,2025-01-17,Synthetic
+TC00478,29,Male,Dermatology,Video,Skin Rash,Stress,24,Yes,Yes,1,2025-11-18,Synthetic
+TC00479,65,Male,Cardiology,Video,Skin Rash,Dermatitis,14,Yes,Yes,3,2025-04-23,Synthetic
+TC00480,60,Male,Dermatology,Video,Headache,Viral Infection,57,No,No,3,2025-05-19,Synthetic
+TC00481,49,Male,General Medicine,Audio,Headache,Hypertension,20,No,Yes,5,2025-05-01,Synthetic
+TC00482,20,Female,Dermatology,Audio,Chest Pain,Dermatitis,37,Yes,No,3,2025-12-05,Synthetic
+TC00483,76,Female,General Medicine,Audio,Cough,Viral Infection,36,No,Yes,4,2025-10-24,Synthetic
+TC00484,29,Female,Psychiatry,Audio,Cough,Dermatitis,29,No,Yes,3,2025-08-22,Synthetic
+TC00485,81,Female,General Medicine,Video,Fever,Migraine,9,Yes,Yes,5,2025-01-12,Synthetic
+TC00486,58,Female,Psychiatry,Chat,Skin Rash,Hypertension,6,No,No,2,2025-07-27,Synthetic
+TC00487,23,Male,Cardiology,Audio,Anxiety,Stress,6,No,Yes,3,2025-10-05,Synthetic
+TC00488,42,Female,General Medicine,Audio,Chest Pain,Hypertension,28,Yes,Yes,4,2025-01-23,Synthetic
+TC00489,37,Female,Psychiatry,Chat,Skin Rash,Dermatitis,51,Yes,Yes,5,2025-12-04,Synthetic
+TC00490,67,Male,Cardiology,Chat,Fever,Hypertension,44,No,Yes,3,2025-06-02,Synthetic
+TC00491,41,Female,Psychiatry,Audio,Headache,Dermatitis,41,No,Yes,1,2025-11-17,Synthetic
+TC00492,70,Female,Pediatrics,Video,Fever,Hypertension,11,Yes,No,5,2025-04-05,Synthetic
+TC00493,70,Female,Psychiatry,Chat,Skin Rash,Viral Infection,36,No,Yes,4,2025-06-25,Synthetic
+TC00494,41,Male,Dermatology,Video,Fever,Viral Infection,11,No,Yes,2,2025-09-16,Synthetic
+TC00495,33,Male,General Medicine,Audio,Fever,Viral Infection,25,No,No,4,2025-01-20,Synthetic
+TC00496,23,Male,Cardiology,Audio,Cough,Hypertension,14,No,No,2,2025-09-21,Synthetic
+TC00497,73,Female,Dermatology,Video,Anxiety,Migraine,16,No,Yes,1,2025-06-28,Synthetic
+TC00498,45,Male,General Medicine,Video,Cough,Healthy,57,No,Yes,2,2025-06-05,Synthetic
+TC00499,60,Male,Dermatology,Audio,Headache,Migraine,57,No,Yes,3,2025-10-17,Synthetic
+TC00500,60,Female,Pediatrics,Video,Anxiety,Viral Infection,59,No,No,4,2025-02-03,Synthetic
