@@ -18,11 +18,9 @@ python -m pip install -r requirements.txt
 python main.py
 ```
 
-`python main.py --sin-abrir` vuelve a generar todo sin abrir el navegador. Las rutas se resuelven desde el archivo del proyecto, no desde el directorio de la terminal. `python -m unittest discover -s pruebas -v` ejecuta las pruebas.
+`python main.py --sin-abrir` vuelve a generar todo sin abrir el navegador. Las rutas se resuelven desde el archivo del proyecto, no desde el directorio de la terminal.
 
-**Sin instalar Python:** abrir `resultados/Panel_AquaLytics.html` en un navegador. Es autónomo, contiene sus gráficos y datos, y funciona sin conexión. Permite filtrar por organismo, estación, fechas, estado y calidad de resultados, explorar parámetros y descargar la selección en CSV. Las ocho figuras completas están en una sección desplegable.
-
-Abrir `AquaLytics.ipynb` con Jupyter, VS Code o Colab. En Colab, subir y extraer la carpeta completa; situar el directorio de trabajo en la carpeta que contiene `analisis.py` antes de ejecutar el cuaderno. Si faltan dependencias, instalar `requirements.txt` en ese entorno.
+**Panel:** al ejecutar `main.py` se genera `resultados/Panel_AquaLytics.html`, que se abre en el navegador. Es autónomo, contiene sus gráficos y datos, y funciona sin conexión. Permite filtrar por organismo, estación, fechas, estado y calidad de resultados, explorar parámetros y descargar la selección en CSV. Las ocho figuras completas están en una sección desplegable.
 
 ## Datos y unidad de análisis
 
@@ -98,22 +96,18 @@ La comparación por estación y fecha detecta 292 celdas distintas respecto de l
 | Ruta | Contenido |
 |---|---|
 | `analisis.py`, `panel.py`, `main.py` | Código del proceso y panel |
-| `AquaLytics.ipynb` | Cuaderno con explicaciones, tablas y visualizaciones |
 | `limites.json` | Configuración verificable de referencias |
 | `datos/originales/` | Los dos datasets adjuntos sin alteración |
 | `datos/procesados/` | Tablas limpias, trazabilidad y sensibilidad |
 | `resultados/Panel_AquaLytics.html` | Panel autónomo con filtros y exportación |
 | `resultados/graficos/` | Ocho visualizaciones PNG |
 | `resultados/` | Estadísticas, correlaciones, tamaños de pares e indicadores |
-| `docs/Informe_AquaLytics.docx` | Informe y respuestas del formulario |
-| `docs/` | Reglamento base y modificación oficial |
-| `pruebas/` | Verificación de unidades, límites y agregación |
 
-El informe desarrolla las preguntas del formulario. `docs/Guion_presentacion.md` contiene el pitch y el esquema para trasladarlo al PPT oficial SIC. La plantilla PPT oficial no figura entre los adjuntos; no se presenta una plantilla propia como la oficial. El video y la carga en el repositorio oficial del programa deben realizarse con los medios y el destino del equipo. No se han inventado enlaces GitHub ni grabaciones.
+El video y la carga en el repositorio oficial del programa deben realizarse con los medios y el destino del equipo. No se han inventado enlaces GitHub ni grabaciones.
 
 ## Validación y métricas
 
-Las pruebas verifican que no se mezclen unidades, que los límites sean inclusivos, que los faltantes no se den por conformes y que una mediana no oculte una excedencia. El conjunto también se comprueba con invariantes de conteos y de separación de controles. El tiempo registrado en `indicadores.json` mide carga, limpieza, evaluación, exportación y sensibilidad en este equipo; excluye las figuras y el panel. No se realizó una comparación manual cronometrada, por lo que no se afirma un ahorro porcentual. Sin etiquetas externas y validación de laboratorio no se informa exactitud de potabilidad.
+El tiempo registrado en `indicadores.json` mide carga, limpieza, evaluación, exportación y sensibilidad en este equipo; excluye las figuras y el panel. No se realizó una comparación manual cronometrada, por lo que no se afirma un ahorro porcentual. Sin etiquetas externas y validación de laboratorio no se informa exactitud de potabilidad.
 
 ## Referencias
 
