@@ -124,7 +124,7 @@ python AstraMed_Analytics.py
 
 Al ejecutar el script, el sistema procesará la base de datos con **Pandas**, realizará cálculos matriciales y Bootstrap con **NumPy**, ejecutará pruebas estadísticas con **SciPy**, entrenará modelos con **Scikit-Learn** y generará automáticamente todos los gráficos en la carpeta `resources/` usando **Matplotlib** y **Seaborn**.
 
-### 4. Abrir el Cuaderno Interactivo (Jupyter Notebook)
+### 3. Abrir el Cuaderno Interactivo (Jupyter Notebook)
 Para explorar el análisis paso a paso en entorno de notebooks:
 ```bash
 jupyter notebook AstraMed_Analisis_Datos.ipynb
