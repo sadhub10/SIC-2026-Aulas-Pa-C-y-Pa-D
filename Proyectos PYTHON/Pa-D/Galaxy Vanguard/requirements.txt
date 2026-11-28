@@ -1,0 +1,9 @@
+pandas
+openpyxl
+xlrd
+pdfplumber
+matplotlib
+jupyter
+ipykernel
+requests
+lxml

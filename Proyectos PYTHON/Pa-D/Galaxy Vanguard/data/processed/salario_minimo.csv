@@ -1,0 +1,23 @@
+fecha_inicio,anio_analisis,decreto,region,actividad,categoria,salario_hora,salario_mensual,es_oficial_mensual,categoria_existia
+2018-01-01,2019,DE 75/2017,1,comercio_al_por_menor,pequena,2.2,457.6,False,True
+2018-01-01,2019,DE 75/2017,1,comercio_al_por_menor,gran_empresa,2.72,565.76,False,True
+2018-01-01,2019,DE 75/2017,2,comercio_al_por_menor,pequena,1.84,382.72,False,True
+2018-01-01,2019,DE 75/2017,2,comercio_al_por_menor,gran_empresa,2.23,463.84,False,True
+2022-01-16,2022,DE 74/2021,1,comercio_al_por_menor,pequena,2.27,472.16,False,True
+2022-01-16,2022,DE 74/2021,1,comercio_al_por_menor,gran_empresa,2.81,584.48,False,True
+2022-01-16,2022,DE 74/2021,1,comercio_al_por_menor,supermercados_5_plus,2.88,599.04,False,True
+2022-01-16,2022,DE 74/2021,2,comercio_al_por_menor,pequena,1.9,395.2,False,True
+2022-01-16,2022,DE 74/2021,2,comercio_al_por_menor,gran_empresa,2.3,478.4,False,True
+2022-01-16,2022,DE 74/2021,2,comercio_al_por_menor,supermercados_5_plus,2.36,490.88,False,True
+2026-01-16,2026,DE 13/2025,1,comercio_al_por_menor,pequena,2.37,492.96,False,True
+2026-01-16,2026,DE 13/2025,1,comercio_al_por_menor,gran_empresa,3.02,628.16,False,True
+2026-01-16,2026,DE 13/2025,1,comercio_al_por_menor,supermercados_5_plus,3.09,642.72,False,True
+2026-01-16,2026,DE 13/2025,2,comercio_al_por_menor,pequena,1.99,413.92,False,True
+2026-01-16,2026,DE 13/2025,2,comercio_al_por_menor,gran_empresa,2.48,515.84,False,True
+2026-01-16,2026,DE 13/2025,2,comercio_al_por_menor,supermercados_5_plus,2.54,528.32,False,True
+2018-01-01,2019,DE 75/2017,1,trabajo_domestico,domestico,,275.0,True,True
+2018-01-01,2019,DE 75/2017,2,trabajo_domestico,domestico,,250.0,True,True
+2022-01-16,2022,DE 74/2021,1,trabajo_domestico,domestico,,315.0,True,True
+2022-01-16,2022,DE 74/2021,2,trabajo_domestico,domestico,,290.0,True,True
+2026-01-16,2026,DE 13/2025,1,trabajo_domestico,domestico,,350.0,True,True
+2026-01-16,2026,DE 13/2025,2,trabajo_domestico,domestico,,320.0,True,True

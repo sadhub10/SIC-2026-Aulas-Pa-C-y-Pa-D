@@ -1,0 +1,64 @@
+fecha,anio,mes,fuente,geografia,n_productos,costo_total,notas
+2019-01-01,2019,1,acodeco_historico,provincia_de_panama,59,262.93,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2019-02-01,2019,2,acodeco_historico,provincia_de_panama,59,262.51,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2019-03-01,2019,3,acodeco_historico,provincia_de_panama,59,261.19,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2019-04-01,2019,4,acodeco_historico,provincia_de_panama,59,262.19,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2019-05-01,2019,5,acodeco_historico,provincia_de_panama,59,264.89,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2019-06-01,2019,6,acodeco_historico,provincia_de_panama,59,260.64,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2019-07-01,2019,7,acodeco_historico,provincia_de_panama,59,261.9,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2019-08-01,2019,8,acodeco_historico,provincia_de_panama,59,263.09,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2019-09-01,2019,9,acodeco_historico,provincia_de_panama,59,263.9,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2019-10-01,2019,10,acodeco_historico,provincia_de_panama,59,265.44,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2019-11-01,2019,11,acodeco_historico,provincia_de_panama,59,263.13,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2019-12-01,2019,12,acodeco_historico,provincia_de_panama,59,263.52,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2022-01-01,2022,1,acodeco_historico,provincia_de_panama,59,278.87,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2022-02-01,2022,2,acodeco_historico,provincia_de_panama,59,274.0,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2022-03-01,2022,3,acodeco_historico,provincia_de_panama,59,275.65,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2022-04-01,2022,4,acodeco_historico,provincia_de_panama,59,275.66,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2022-05-01,2022,5,acodeco_historico,provincia_de_panama,59,280.71,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2022-06-01,2022,6,acodeco_historico,provincia_de_panama,59,285.92,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2022-07-01,2022,7,acodeco_historico,provincia_de_panama,59,292.52,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2022-08-01,2022,8,acodeco_historico,provincia_de_panama,59,285.06,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2022-09-01,2022,9,acodeco_historico,provincia_de_panama,59,283.91,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2022-10-01,2022,10,acodeco_historico,provincia_de_panama,59,283.92,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2022-11-01,2022,11,acodeco_historico,provincia_de_panama,59,286.51,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2022-12-01,2022,12,acodeco_historico,provincia_de_panama,59,287.41,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2026-01-01,2026,1,acodeco_historico,provincia_de_panama,59,304.4,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2026-02-01,2026,2,acodeco_historico,provincia_de_panama,59,303.04,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2026-03-01,2026,3,acodeco_historico,provincia_de_panama,59,302.79,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2026-04-01,2026,4,acodeco_historico,provincia_de_panama,59,303.53,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2026-05-01,2026,5,acodeco_historico,provincia_de_panama,59,305.13,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2026-06-01,2026,6,acodeco_historico,provincia_de_panama,59,303.45,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2026-07-01,2026,7,acodeco_historico,provincia_de_panama,59,303.67,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2026-08-01,2026,8,acodeco_historico,provincia_de_panama,59,304.85,ACODECO: costo de la canasta de 59 productos a precios de supermercado en la provincia de Panamá. No es el costo calórico del MEF.
+2019-01-01,2019,1,mef_cbfa,panama_y_san_miguelito,59,306.08,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2019-02-01,2019,2,mef_cbfa,panama_y_san_miguelito,59,304.59,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2019-03-01,2019,3,mef_cbfa,panama_y_san_miguelito,59,304.61,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2019-04-01,2019,4,mef_cbfa,panama_y_san_miguelito,59,306.76,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2019-05-01,2019,5,mef_cbfa,panama_y_san_miguelito,59,308.21,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2019-06-01,2019,6,mef_cbfa,panama_y_san_miguelito,59,308.99,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2019-07-01,2019,7,mef_cbfa,panama_y_san_miguelito,59,310.38,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2019-08-01,2019,8,mef_cbfa,panama_y_san_miguelito,59,308.25,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2019-09-01,2019,9,mef_cbfa,panama_y_san_miguelito,59,310.04,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2019-10-01,2019,10,mef_cbfa,panama_y_san_miguelito,59,310.06,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2019-11-01,2019,11,mef_cbfa,panama_y_san_miguelito,59,306.42,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2019-12-01,2019,12,mef_cbfa,panama_y_san_miguelito,59,306.68,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2022-01-01,2022,1,mef_cbfa,panama_y_san_miguelito,59,318.12,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2022-02-01,2022,2,mef_cbfa,panama_y_san_miguelito,59,319.44,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2022-03-01,2022,3,mef_cbfa,panama_y_san_miguelito,59,322.2,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2022-04-01,2022,4,mef_cbfa,panama_y_san_miguelito,59,323.4,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2022-05-01,2022,5,mef_cbfa,panama_y_san_miguelito,59,326.52,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2022-06-01,2022,6,mef_cbfa,panama_y_san_miguelito,59,330.4,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2022-07-01,2022,7,mef_cbfa,panama_y_san_miguelito,59,342.79,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2022-09-01,2022,9,mef_cbfa,panama_y_san_miguelito,59,338.85,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2022-10-01,2022,10,mef_cbfa,panama_y_san_miguelito,59,340.36,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2022-11-01,2022,11,mef_cbfa,panama_y_san_miguelito,59,341.27,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2022-12-01,2022,12,mef_cbfa,panama_y_san_miguelito,59,342.02,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2026-01-01,2026,1,mef_cbfa,panama_y_san_miguelito,59,363.52,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2026-02-01,2026,2,mef_cbfa,panama_y_san_miguelito,59,363.65,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2026-03-01,2026,3,mef_cbfa,panama_y_san_miguelito,59,365.88,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2026-04-01,2026,4,mef_cbfa,panama_y_san_miguelito,59,365.28,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2026-05-01,2026,5,mef_cbfa,panama_y_san_miguelito,59,367.0,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2026-06-01,2026,6,mef_cbfa,panama_y_san_miguelito,59,366.98,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2026-07-01,2026,7,mef_cbfa,panama_y_san_miguelito,59,367.03,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
+2026-08-01,2026,8,mef_cbfa,panama_y_san_miguelito,59,369.21,MEF: costo calórico familiar; no comparable 1:1 con ACODECO.
