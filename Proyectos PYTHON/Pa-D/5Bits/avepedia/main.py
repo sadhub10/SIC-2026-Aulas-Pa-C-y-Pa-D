@@ -1,4 +1,3 @@
-import os
 import re
 import unicodedata
 import webbrowser
@@ -76,38 +75,50 @@ if archivo_creditos.is_file():
     with archivo_creditos.open(encoding='utf-8-sig', newline='') as archivo:
         creditos = {(fila['Especie del catálogo'], fila['Archivo']): fila for fila in DictReader(archivo)}
 
-ctk.set_appearance_mode('dark')
+# Paleta de la guía de campo.
+BOSQUE = '#193D32'
+VERDE = '#30694D'
+PAPEL = '#F6F4EA'
+TINTA = '#203B30'
+SECUNDARIO = '#526759'
+ALERTA = '#944513'
+
+ctk.set_appearance_mode('light')
 ctk.set_default_color_theme('green')
 ventana = ctk.CTk()
 ventana.title('AvePedia')
 ventana.geometry('1080x700')
 ventana.minsize(850, 580)
 
-menu = ctk.CTkFrame(ventana, width=220, corner_radius=0)
+menu = ctk.CTkFrame(ventana, width=190, corner_radius=0, fg_color=BOSQUE)
 menu.pack(side='left', fill='y')
 menu.pack_propagate(False)
-contenido = ctk.CTkFrame(ventana)
+ventana.configure(fg_color=PAPEL)
+contenido = ctk.CTkFrame(ventana, fg_color='transparent')
 contenido.pack(side='right', fill='both', expand=True, padx=15, pady=15)
 
-imagenes_cargadas = []
+botones_menu = {}
 # Recuerda la búsqueda del catálogo para volver al mismo lugar desde una ficha
 estado_catalogo = {'texto': '', 'habitat': TODOS_LOS_HABITATS, 'pagina': 0}
 
 
-def limpiar():
+def limpiar(seccion):
+    for nombre, boton_menu in botones_menu.items():
+        boton_menu.configure(fg_color=VERDE if nombre == seccion else 'transparent')
     if AUDIO_DISPONIBLE:
         pygame.mixer.music.stop()
-    imagenes_cargadas.clear()
     for elemento in contenido.winfo_children():
         elemento.destroy()
 
 
 def encabezado(texto):
-    ctk.CTkLabel(contenido, text=texto, font=('Arial', 27, 'bold')).pack(pady=(18, 12))
+    ctk.CTkLabel(contenido, text=texto, font=('Georgia', 32, 'bold'),
+                 text_color=TINTA).pack(anchor='w', padx=12, pady=(10, 12))
 
 
-def aviso(texto, color='white'):
-    ctk.CTkLabel(contenido, text=texto, text_color=color, wraplength=500).pack(pady=8)
+def boton(padre, texto, accion, ancho=140):
+    return ctk.CTkButton(padre, text=texto, command=accion, width=ancho, height=34,
+                         fg_color=VERDE, hover_color=BOSQUE, text_color='white')
 
 
 def guardar_avistamientos():
@@ -158,30 +169,22 @@ def mostrar_credito(ave, tipo, padre):
         enlace.bind('<Button-1>', lambda _: webbrowser.open(credito['Página de origen']))
 
 
-def imagen_ave(ave, padre):
-    ruta = IMAGENES / str(ave['Imagen'])
-    if not ruta.is_file():
-        ctk.CTkLabel(padre, text='Sin fotografía', width=150, height=120).pack(padx=10, pady=8)
-        return
+def foto_ave(ave, ancho, alto):
     try:
-        with Image.open(ruta) as original:
+        with Image.open(IMAGENES / ave['Imagen']) as original:
             foto = ImageOps.exif_transpose(original).convert('RGB')
-        escala = min(320 / foto.width, 220 / foto.height, 1)
-        tamano = (max(1, round(foto.width * escala)), max(1, round(foto.height * escala)))
-        imagen = ctk.CTkImage(light_image=foto, dark_image=foto, size=tamano)
-        imagenes_cargadas.append(imagen)
-        ctk.CTkLabel(padre, image=imagen, text='').pack(padx=10, pady=8)
-        mostrar_credito(ave, 'Imagen', padre)
-    except Exception:
-        ctk.CTkLabel(padre, text='No se pudo abrir la imagen').pack(padx=10, pady=8)
+        foto.thumbnail((ancho, alto))
+        return ctk.CTkImage(light_image=foto, size=foto.size)
+    except (OSError, ValueError):
+        return None
 
 
 def reproducir_audio(ave, mensaje):
     ruta = AUDIOS / str(ave['Audio'])
     if not ruta.is_file():
-        mensaje.configure(text='No hay grabación disponible para esta especie.', text_color='orange')
+        mensaje.configure(text='No hay grabación disponible para esta especie.', text_color=ALERTA)
     elif not AUDIO_DISPONIBLE:
-        mensaje.configure(text='No se pudo inicializar el dispositivo de audio.', text_color='orange')
+        mensaje.configure(text='No se pudo inicializar el dispositivo de audio.', text_color=ALERTA)
     else:
         try:
             pygame.mixer.music.stop()
@@ -189,7 +192,7 @@ def reproducir_audio(ave, mensaje):
             pygame.mixer.music.play()
             mensaje.configure(text='')
         except Exception:
-            mensaje.configure(text='No se pudo reproducir la grabación.', text_color='orange')
+            mensaje.configure(text='No se pudo reproducir la grabación.', text_color=ALERTA)
 
 
 def mostrar_grafica(identificador, padre):
@@ -200,7 +203,7 @@ def mostrar_grafica(identificador, padre):
     etiquetas = [f'{int(d)}s' for d in datos_ave['Década']]
     figura = Figure(figsize=(5, 2.7), dpi=95, constrained_layout=True)
     eje = figura.add_subplot(111)
-    eje.plot(etiquetas, datos_ave['Individuos por hora'], marker='o')
+    eje.plot(etiquetas, datos_ave['Individuos por hora'], marker='o', color=VERDE)
     eje.set_title('Conteo Navideño de Aves en Panamá')
     eje.set_xlabel('Década')
     eje.set_ylabel('Individuos por hora')
@@ -211,7 +214,7 @@ def mostrar_grafica(identificador, padre):
     canvas.get_tk_widget().pack(padx=10, pady=(10, 2), fill='x')
     ctk.CTkLabel(padre, text='Fuente: Audubon Christmas Bird Count (1973-2024). Índice de individuos '
                             'contados por hora de observación, no la población total.',
-                 font=('Arial', 11), text_color='gray', wraplength=560).pack(pady=(0, 8))
+                 font=('Arial', 11), text_color=SECUNDARIO, wraplength=560).pack(pady=(0, 8))
 
 
 def mostrar_ficha(codigo):
@@ -219,11 +222,13 @@ def mostrar_ficha(codigo):
     if seleccion.empty:
         return
     ave = seleccion.iloc[0]
-    limpiar()
+    limpiar('Catálogo de aves')
     encabezado(ave['Nombre'])
-    zona = ctk.CTkScrollableFrame(contenido)
+    zona = ctk.CTkScrollableFrame(contenido, fg_color='white')
     zona.pack(fill='both', expand=True, padx=15, pady=10)
-    imagen_ave(ave, zona)
+    foto = foto_ave(ave, 420, 270)
+    ctk.CTkLabel(zona, text='' if foto else 'Sin fotografía', image=foto).pack(pady=(14, 4))
+    mostrar_credito(ave, 'Imagen', zona)
     for campo in ['Nombre científico', 'Hábitat', 'Alimentación', 'Descripción']:
         valor = ave[campo] or 'Pendiente'
         ctk.CTkLabel(zona, text=f'{campo}: {valor}', wraplength=580, justify='left').pack(pady=4)
@@ -232,38 +237,38 @@ def mostrar_ficha(codigo):
     ctk.CTkLabel(zona, text=f"Estado de conservación: {describir_amenaza(ave['Amenaza'])}",
                  wraplength=580, justify='left').pack(pady=4)
     mensaje_audio = ctk.CTkLabel(zona, text='')
-    ctk.CTkButton(zona, text='Escuchar grabación', command=lambda: reproducir_audio(ave, mensaje_audio)).pack(pady=(8, 0))
+    boton(zona, 'Escuchar grabación', lambda: reproducir_audio(ave, mensaje_audio)).pack(pady=(8, 0))
     mostrar_credito(ave, 'Audio', zona)
     mensaje_audio.pack()
     mostrar_grafica(codigo, zona)
-    ctk.CTkButton(zona, text='Volver al catálogo', command=mostrar_catalogo).pack(pady=10)
+    boton(zona, 'Volver al catálogo', mostrar_catalogo).pack(pady=10)
 
 
 def mostrar_catalogo():
-    limpiar()
+    limpiar('Catálogo de aves')
     encabezado('Catálogo de aves')
     barra = ctk.CTkFrame(contenido, fg_color='transparent')
-    barra.pack(pady=7)
-    entrada = ctk.CTkEntry(barra, width=300, placeholder_text='Buscar por nombre común o científico')
-    entrada.pack(side='left', padx=5)
+    barra.pack(fill='x', padx=12, pady=7)
+    entrada = ctk.CTkEntry(barra, width=170, placeholder_text='Buscar por nombre común o científico')
+    entrada.pack(side='left', fill='x', expand=True, padx=(0, 8))
     if estado_catalogo['texto']:
         entrada.insert(0, estado_catalogo['texto'])
     filtro = ctk.CTkComboBox(barra, values=lista_habitats(), width=200, state='readonly',
                              command=lambda _: buscar(nueva_busqueda=True))
     filtro.set(estado_catalogo['habitat'])
     filtro.pack(side='left', padx=5)
-    ctk.CTkButton(barra, text='Buscar', width=90,
-                  command=lambda: buscar(nueva_busqueda=True)).pack(side='left', padx=5)
+    boton(barra, 'Buscar', lambda: buscar(nueva_busqueda=True), ancho=85).pack(side='left', padx=5)
 
     resumen = ctk.CTkLabel(contenido, text='')
-    resumen.pack()
-    lista = ctk.CTkScrollableFrame(contenido)
-    lista.pack(fill='both', expand=True, padx=15, pady=8)
+    resumen.configure(text_color=SECUNDARIO)
+    resumen.pack(anchor='w', padx=12)
+    lista = ctk.CTkScrollableFrame(contenido, fg_color='transparent')
+    lista.pack(fill='both', expand=True, padx=5, pady=6)
     paginacion = ctk.CTkFrame(contenido, fg_color='transparent')
     paginacion.pack(pady=(0, 6))
-    boton_anterior = ctk.CTkButton(paginacion, text='< Anterior', width=110, command=lambda: cambiar_pagina(-1))
+    boton_anterior = boton(paginacion, '< Anterior', lambda: cambiar_pagina(-1), ancho=110)
     boton_anterior.pack(side='left', padx=8)
-    boton_siguiente = ctk.CTkButton(paginacion, text='Siguiente >', width=110, command=lambda: cambiar_pagina(1))
+    boton_siguiente = boton(paginacion, 'Siguiente >', lambda: cambiar_pagina(1), ancho=110)
     boton_siguiente.pack(side='left', padx=8)
 
     def cambiar_pagina(paso):
@@ -295,15 +300,18 @@ def mostrar_catalogo():
         boton_siguiente.configure(state='normal' if estado_catalogo['pagina'] < paginas - 1 else 'disabled')
 
         for _, ave in pagina.iterrows():
-            tarjeta = ctk.CTkFrame(lista)
-            tarjeta.pack(fill='x', padx=8, pady=6)
-            ctk.CTkLabel(tarjeta, text=f"{ave['Nombre']} — {ave['Nombre científico']}",
-                         font=('Arial', 16, 'bold')).pack(pady=(8, 3))
-            ctk.CTkLabel(tarjeta, text=f"Hábitat: {ave['Hábitat'] or 'Pendiente'} | "
-                                       f"Alimentación: {ave['Alimentación'] or 'Pendiente'}",
-                         wraplength=500).pack(pady=3)
-            ctk.CTkButton(tarjeta, text='Ver ficha',
-                          command=lambda codigo=ave['ID']: mostrar_ficha(codigo)).pack(pady=8)
+            tarjeta = ctk.CTkFrame(lista, fg_color='white', corner_radius=12)
+            tarjeta.pack(fill='x', padx=4, pady=4)
+            foto = foto_ave(ave, 82, 70)
+            ctk.CTkLabel(tarjeta, image=foto, text='', width=82).pack(side='left', padx=10)
+            boton(tarjeta, 'Ver ficha', lambda codigo=ave['ID']: mostrar_ficha(codigo),
+                  ancho=84).pack(side='right', padx=10)
+            ctk.CTkLabel(tarjeta, text=ave['Nombre'], text_color=TINTA,
+                         font=('Georgia', 17, 'bold')).pack(anchor='w', pady=(7, 0))
+            ctk.CTkLabel(tarjeta, text=ave['Nombre científico'], font=('Arial', 13, 'italic'),
+                         height=19, text_color=SECUNDARIO).pack(anchor='w')
+            detalle = f"{ave['Hábitat'] or 'Pendiente'}  ·  {ave['Alimentación'] or 'Pendiente'}"
+            ctk.CTkLabel(tarjeta, text=detalle, height=20, text_color=SECUNDARIO).pack(anchor='w', pady=(0, 7))
         try:
             lista._parent_canvas.yview_moveto(0)
         except Exception:
@@ -314,9 +322,9 @@ def mostrar_catalogo():
 
 
 def mostrar_avistamientos():
-    limpiar()
+    limpiar('Mis avistamientos')
     encabezado('Mis avistamientos')
-    zona = ctk.CTkScrollableFrame(contenido)
+    zona = ctk.CTkScrollableFrame(contenido, fg_color='white')
     zona.pack(fill='both', expand=True, padx=15, pady=10)
     ctk.CTkLabel(zona, text='Ave:').pack(pady=(8, 0))
     # Con 500 especies, primero se escribe parte del nombre y la lista muestra solo las coincidencias
@@ -324,7 +332,7 @@ def mostrar_avistamientos():
     busqueda.pack(pady=4)
     selector = ctk.CTkComboBox(zona, values=[], width=300, state='readonly')
     selector.pack(pady=4)
-    pista = ctk.CTkLabel(zona, text='', text_color='orange')
+    pista = ctk.CTkLabel(zona, text='', text_color=ALERTA)
     pista.pack()
 
     def filtrar_selector(*_):
@@ -367,8 +375,7 @@ def mostrar_avistamientos():
             tarjeta.pack(fill='x', padx=8, pady=5)
             ctk.CTkLabel(tarjeta, text=f"{nombre} | {registro['Fecha']} | {registro['Ubicación']}\n{registro['Comentario']}",
                          wraplength=460, justify='left').pack(pady=5)
-            ctk.CTkButton(tarjeta, text='Eliminar', width=90,
-                          command=lambda i=posicion: eliminar(i)).pack(pady=4)
+            boton(tarjeta, 'Eliminar', lambda i=posicion: eliminar(i), ancho=90).pack(pady=4)
 
     def eliminar(posicion):
         global avistamientos
@@ -383,15 +390,15 @@ def mostrar_avistamientos():
         f = fecha.get().strip()
         lugar = ubicacion.get().strip()
         if seleccion.empty or not f or not lugar:
-            mensaje.configure(text='Completa el ave, la fecha y la ubicación.', text_color='orange')
+            mensaje.configure(text='Completa el ave, la fecha y la ubicación.', text_color=ALERTA)
             return
         try:
             dia = datetime.strptime(f, '%d/%m/%Y')
         except ValueError:
-            mensaje.configure(text='La fecha debe ser válida y usar DD/MM/AAAA.', text_color='orange')
+            mensaje.configure(text='La fecha debe ser válida y usar DD/MM/AAAA.', text_color=ALERTA)
             return
         if dia > datetime.now():
-            mensaje.configure(text='La fecha no puede estar en el futuro.', text_color='orange')
+            mensaje.configure(text='La fecha no puede estar en el futuro.', text_color=ALERTA)
             return
         nuevo = pd.DataFrame([{
             'ID': seleccion.iloc[0]['ID'],
@@ -404,18 +411,18 @@ def mostrar_avistamientos():
         fecha.delete(0, 'end')
         ubicacion.delete(0, 'end')
         comentario.delete('1.0', 'end')
-        mensaje.configure(text='¡Avistamiento guardado!', text_color='lightgreen')
+        mensaje.configure(text='¡Avistamiento guardado!', text_color=VERDE)
         refrescar()
 
-    ctk.CTkButton(zona, text='Registrar avistamiento', command=registrar).pack(pady=9)
+    boton(zona, 'Registrar avistamiento', registrar).pack(pady=9)
     contenedor_registros.pack(fill='x', padx=8, pady=12)
     refrescar()
 
 
 def mostrar_estadisticas():
-    limpiar()
+    limpiar('Estadísticas')
     encabezado('Estadísticas')
-    zona = ctk.CTkScrollableFrame(contenido)
+    zona = ctk.CTkScrollableFrame(contenido, fg_color='white')
     zona.pack(fill='both', expand=True, padx=15, pady=10)
     total = len(aves)
     vistas = avistamientos['ID'].nunique() if not avistamientos.empty else 0
@@ -437,7 +444,7 @@ def mostrar_estadisticas():
     ctk.CTkLabel(zona, text=f'Hábitat más frecuente: {conteos.index[0]} ({conteos.iloc[0]} avistamientos)').pack(pady=12)
     figura = Figure(figsize=(6, 3), dpi=95, constrained_layout=True)
     eje = figura.add_subplot(111)
-    eje.bar(conteos.index.tolist(), conteos.values)
+    eje.bar(conteos.index.tolist(), conteos.values, color=VERDE)
     eje.set_ylabel('Avistamientos')
     eje.set_title('Avistamientos por hábitat')
     eje.tick_params(axis='x', rotation=20)
@@ -462,9 +469,9 @@ def enlace(padre, texto, url):
 
 
 def mostrar_acerca_de():
-    limpiar()
+    limpiar('Acerca de')
     encabezado('Acerca de AvePedia')
-    zona = ctk.CTkScrollableFrame(contenido)
+    zona = ctk.CTkScrollableFrame(contenido, fg_color='white')
     zona.pack(fill='both', expand=True, padx=15, pady=10)
 
     def titulo(texto):
@@ -504,19 +511,33 @@ def mostrar_acerca_de():
 
 
 def mostrar_inicio():
-    limpiar()
-    encabezado('Bienvenido a AvePedia')
-    aviso('Tu enciclopedia y diario de observación de aves de Panamá.')
+    limpiar('Inicio')
+    encabezado('Aves de Panamá')
+    ctk.CTkLabel(contenido, text=f'{len(aves)} especies en el catálogo', text_color=SECUNDARIO,
+                 font=('Arial', 16)).pack(anchor='w', padx=14)
+    acciones = ctk.CTkFrame(contenido, fg_color='transparent')
+    acciones.pack(anchor='w', padx=12, pady=(12, 22))
+    boton(acciones, 'Explorar catálogo', mostrar_catalogo).pack(side='left', padx=(0, 8))
+    boton(acciones, 'Registrar avistamiento', mostrar_avistamientos).pack(side='left')
+
     if aves.empty:
-        aviso(f'No se encontró el catálogo de aves. Revisa el archivo {ARCHIVO_AVES.name} '
-              'en la carpeta datos.', 'orange')
-    ctk.CTkLabel(contenido, text=f'{len(aves)} especies en el catálogo',
-                 font=('Arial', 19)).pack(pady=12)
-    ctk.CTkButton(contenido, text='Explorar catálogo', command=mostrar_catalogo).pack(pady=10)
-    ctk.CTkButton(contenido, text='Registrar avistamiento', command=mostrar_avistamientos).pack(pady=10)
+        ctk.CTkLabel(contenido, text='Catálogo vacío. Revisa datos/aves.csv.', text_color=ALERTA).pack()
+        return
+    tucan = aves[aves['Nombre científico'] == 'Ramphastos sulfuratus']
+    ave = tucan.iloc[0] if not tucan.empty else aves.iloc[0]
+    portada = ctk.CTkFrame(contenido, fg_color='white', corner_radius=14)
+    portada.pack(fill='x', padx=12)
+    foto = foto_ave(ave, 360, 210)
+    ctk.CTkLabel(portada, image=foto, text='' if foto else 'Sin fotografía').pack(pady=(16, 4))
+    mostrar_credito(ave, 'Imagen', portada)
+    ctk.CTkLabel(portada, text=ave['Nombre'], font=('Georgia', 24, 'bold'), text_color=TINTA).pack()
+    ctk.CTkLabel(portada, text=ave['Nombre científico'], font=('Arial', 14, 'italic'),
+                 text_color=SECUNDARIO).pack()
+    boton(portada, 'Ver ficha', lambda: mostrar_ficha(ave['ID'])).pack(pady=(6, 14))
 
 
-ctk.CTkLabel(menu, text='AvePedia', font=('Arial', 27, 'bold')).pack(pady=36)
+ctk.CTkLabel(menu, text='AvePedia', font=('Georgia', 29, 'bold'), text_color=PAPEL).pack(
+    anchor='w', padx=17, pady=(30, 24))
 for texto, funcion in [
     ('Inicio', mostrar_inicio),
     ('Catálogo de aves', mostrar_catalogo),
@@ -524,7 +545,10 @@ for texto, funcion in [
     ('Estadísticas', mostrar_estadisticas),
     ('Acerca de', mostrar_acerca_de),
 ]:
-    ctk.CTkButton(menu, text=texto, width=185, command=funcion).pack(pady=10)
+    opcion = ctk.CTkButton(menu, text=texto, command=funcion, anchor='w', height=40,
+                           fg_color='transparent', hover_color=VERDE, text_color=PAPEL)
+    opcion.pack(fill='x', padx=12, pady=3)
+    botones_menu[texto] = opcion
 
 mostrar_inicio()
 ventana.mainloop()
