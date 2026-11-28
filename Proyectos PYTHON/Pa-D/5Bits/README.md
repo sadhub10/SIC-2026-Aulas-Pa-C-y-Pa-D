@@ -1,7 +1,9 @@
 # Avepedia — Guía de aves de Panamá para el turismo de observación
 
 **Equipo 5Bits · Aula Pa-D · Módulo de Python · Samsung Innovation Campus**
-**Isaac Salinas (lider)<br>
+# Integrantes 
+
+**<br>Isaac Salinas (lider)<br>
   Antonio Gonzales<br>
   Aramys Cedeño<br>
   Iker Martinez<br>
