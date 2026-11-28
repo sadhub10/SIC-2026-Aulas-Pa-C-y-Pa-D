@@ -207,6 +207,3 @@ Se implementó un modelo supervisado **Random Forest Classifier** para identific
 
 ---
 
-## 📜 Licencia y Reconocimientos
-Proyecto desarrollado en el marco del programa **Samsung Innovation Campus (SIC - 2025/2026)**, Módulo de Programación en Python.  
-Derechos reservados conforme a las directrices de Samsung Electronics Corporate Citizenship Office.
