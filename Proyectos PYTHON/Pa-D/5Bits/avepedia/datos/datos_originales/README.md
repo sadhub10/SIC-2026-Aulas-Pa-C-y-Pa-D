@@ -8,3 +8,7 @@ Los dos archivos de entrada se obtienen externamente.
 | Sociedad Audubon de Panamá | La *Lista de las aves de la República de Panamá 2026* aporta nombres en español, endemismo y categorías de amenaza. [Descargar la lista de 2026 en PDF](https://audubonpanama.org/files/11/Publicaciones/598/Lista-de-aves-de-Panama-2026-rev1) · [Publicaciones de la Sociedad Audubon de Panamá](https://www.audubonpanama.org/publicaciones.html) |
 
 Para reproducir la preparación, solicita el ZIP con el formulario de Audubon, descarga la lista en PDF y guarda ambos archivos en esta carpeta. La aplicación utiliza directamente los [CSV preparados por 5Bits](../datos_modificados/). Los pasos de extracción y transformación están en la [guía de preparación](../../scripts/LEEME.md).
+
+## Fotografías y grabaciones
+
+Las fichas incluyen fotografías de AviCommons e iNaturalist y grabaciones de xeno-canto e iNaturalist. Las versiones que usa Avepedia están en [imagenes/](../../imagenes/) y [audios/](../../audios/). Algunas grabaciones se convirtieron a MP3 para reproducirlas en la aplicación. Para consultar el autor, la licencia y el enlace al original de cada recurso, revisa [multimedia.csv](../datos_modificados/multimedia.csv).
