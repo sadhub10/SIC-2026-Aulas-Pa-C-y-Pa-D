@@ -1,7 +1,7 @@
-"""Actualiza datos/aves.csv y datos/poblaciones.csv a partir de una nueva salida de preparar_conteos.py,
+"""Actualiza datos/datos_modificados/aves.csv y datos/datos_modificados/poblaciones.csv a partir de una nueva salida de preparar_conteos.py,
 conservando los ID y las fichas (hábitat, alimentación, descripción) de las especies que ya existían.
 
-Uso: python actualizar_catalogo.py <carpeta_salida_preparar_conteos> <carpeta_datos_de_la_app> [renombres]
+Uso: python actualizar_catalogo.py <carpeta_salida_preparar_conteos> <carpeta_datos_modificados> [renombres]
   renombres (opcional): pares viejo=nuevo de nombres científicos que son la misma especie con otro nombre,
   separados por coma. Ej: "Tringa semipalmata=Tringa inornata"
 Las especies que salen de la lista liberan su ID, y las que entran lo reutilizan.
@@ -9,10 +9,15 @@ Las especies que salen de la lista liberan su ID, y las que entran lo reutilizan
 import re
 import sys
 import unicodedata
+from pathlib import Path
 
 import pandas as pd
 
-CBC, DATOS = sys.argv[1], sys.argv[2]
+CBC = sys.argv[1]
+DATOS = Path(sys.argv[2])
+# La invocación anterior pasaba la carpeta padre del catálogo.
+if (DATOS / 'datos_modificados').is_dir():
+    DATOS = DATOS / 'datos_modificados'
 RENOMBRES = dict(p.split('=') for p in sys.argv[3].split(',')) if len(sys.argv) > 3 else {}
 COLUMNAS = ['ID', 'Nombre', 'Nombre científico', 'Hábitat', 'Alimentación', 'Descripción',
             'Imagen', 'Audio', 'Endemismo', 'Amenaza']
@@ -25,7 +30,7 @@ def archivo(nombre):
 
 nuevo = pd.read_csv(f'{CBC}/especies_cbc_500.csv', dtype=str).fillna('')
 series = pd.read_csv(f'{CBC}/conteos_por_decada.csv')
-actual = pd.read_csv(f'{DATOS}/aves.csv', dtype=str).fillna('')
+actual = pd.read_csv(DATOS / 'aves.csv', dtype=str).fillna('')
 actual['Nombre científico'] = actual['Nombre científico'].replace(RENOMBRES)
 por_especie = actual.set_index('Nombre científico')
 
@@ -49,13 +54,13 @@ for _, r in nuevo.iterrows():
     })
 aves = pd.DataFrame(filas, columns=COLUMNAS)
 assert aves.ID.is_unique and aves.Imagen.is_unique
-aves.to_csv(f'{DATOS}/aves.csv', index=False, encoding='utf-8-sig')
+aves.to_csv(DATOS / 'aves.csv', index=False, encoding='utf-8-sig')
 
 largo = series.melt(id_vars='especie', var_name='Década', value_name='Individuos por hora').dropna()
 largo['Década'] = largo['Década'].str[1:].astype(int)
 largo.insert(0, 'ID', largo.especie.map(ids))
 largo.drop(columns='especie').sort_values(['ID', 'Década']) \
-    .to_csv(f'{DATOS}/poblaciones.csv', index=False, encoding='utf-8-sig')
+    .to_csv(DATOS / 'poblaciones.csv', index=False, encoding='utf-8-sig')
 
 entran = [f"{ids[e]} {e}" for e in nuevo.especie if e not in por_especie.index]
 salen = [f"{r.ID} {r['Nombre científico']}" for _, r in actual.iterrows() if r['Nombre científico'] not in ids]

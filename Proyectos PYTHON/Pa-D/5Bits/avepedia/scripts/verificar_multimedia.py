@@ -1,7 +1,7 @@
-"""Comprueba que cada ave de datos/aves.csv tenga su fotografía y su canto, y que se puedan abrir.
+"""Comprueba que cada ave de datos/datos_modificados/aves.csv tenga su fotografía y su canto, y que se puedan abrir.
 
 Uso (desde la carpeta principal del proyecto):
-    .venv39\\Scripts\\python scripts\\verificar_multimedia.py
+    .venv\\Scripts\\python scripts\\verificar_multimedia.py
 
 Genera reporte_multimedia.csv con el estado de cada ave.
 """
@@ -25,7 +25,7 @@ except Exception:
     pygame = None
     print('Aviso: no se pudo iniciar el audio; solo se revisará que los cantos existan.')
 
-aves = pd.read_csv(BASE / 'datos' / 'aves.csv', dtype=str).fillna('')
+aves = pd.read_csv(BASE / 'datos' / 'datos_modificados' / 'aves.csv', dtype=str).fillna('')
 
 
 def revisar_foto(nombre):

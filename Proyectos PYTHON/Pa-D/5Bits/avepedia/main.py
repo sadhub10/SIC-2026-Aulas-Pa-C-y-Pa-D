@@ -21,14 +21,15 @@ except Exception:
 
 BASE = Path(__file__).resolve().parent
 DATOS = BASE / 'datos'
+DATOS_MODIFICADOS = DATOS / 'datos_modificados'
 IMAGENES = BASE / 'imagenes'
 AUDIOS = BASE / 'audios'
-for carpeta in (DATOS, IMAGENES, AUDIOS):
+for carpeta in (DATOS, DATOS_MODIFICADOS, IMAGENES, AUDIOS):
     carpeta.mkdir(exist_ok=True)
 
-ARCHIVO_AVES = DATOS / 'aves.csv'
+ARCHIVO_AVES = DATOS_MODIFICADOS / 'aves.csv'
 ARCHIVO_AVISTAMIENTOS = DATOS / 'avistamientos.csv'
-ARCHIVO_POBLACIONES = DATOS / 'poblaciones.csv'
+ARCHIVO_POBLACIONES = DATOS_MODIFICADOS / 'poblaciones.csv'
 
 COLUMNAS_AVES = ['ID', 'Nombre', 'Nombre científico', 'Hábitat', 'Alimentación',
                  'Descripción', 'Imagen', 'Audio', 'Endemismo', 'Amenaza']
@@ -70,7 +71,7 @@ texto_busqueda = (aves['Nombre'] + ' ' + aves['Nombre científico']).map(sin_ace
 poblaciones = pd.read_csv(ARCHIVO_POBLACIONES)
 avistamientos = pd.read_csv(ARCHIVO_AVISTAMIENTOS, dtype=str).fillna('')
 creditos = {}
-archivo_creditos = DATOS / 'multimedia.csv'
+archivo_creditos = DATOS_MODIFICADOS / 'multimedia.csv'
 if archivo_creditos.is_file():
     with archivo_creditos.open(encoding='utf-8-sig', newline='') as archivo:
         creditos = {(fila['Especie del catálogo'], fila['Archivo']): fila for fila in DictReader(archivo)}
@@ -521,7 +522,7 @@ def mostrar_inicio():
     boton(acciones, 'Registrar avistamiento', mostrar_avistamientos).pack(side='left')
 
     if aves.empty:
-        ctk.CTkLabel(contenido, text='Catálogo vacío. Revisa datos/aves.csv.', text_color=ALERTA).pack()
+        ctk.CTkLabel(contenido, text='Catálogo vacío. Revisa datos/datos_modificados/aves.csv.', text_color=ALERTA).pack()
         return
     tucan = aves[aves['Nombre científico'] == 'Ramphastos sulfuratus']
     ave = tucan.iloc[0] if not tucan.empty else aves.iloc[0]
