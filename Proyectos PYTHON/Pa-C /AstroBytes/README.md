@@ -101,8 +101,6 @@ Proyecto 1 - Telemedicina/
 ├── telemedicine_consultation_dataset.csv  # Base de datos de consultas de telemedicina
 ├── AstraMed_Analytics.py                  # Script ejecutable principal del proyecto
 ├── AstraMed_Analisis_Datos.ipynb          # Cuaderno interactivo Jupyter Notebook completo
-├── FORMULARIO_PROPUESTA_SIC.md            # Formulario oficial de presentación del proyecto SIC
-├── PITCH_Y_PRESENTACION_PPT.md            # Guión del video pitch de 1 min y estructura PPT
 ├── requirements.txt                       # Dependencias del proyecto
 └── README.md                              # Documentación completa del proyecto
 ```
@@ -202,10 +200,10 @@ Se implementó un modelo supervisado **Random Forest Classifier** para identific
 
 | Integrante | Rol en el Equipo | Contribución Principal |
 | :--- | :--- | :--- |
-| **Jonathan Reyes** | Líder de Proyecto & Arquitecto & Documentación | Coordinación, diseño de arquitectura modular, integración GitHub. |
-| **Jesús Torres** | Ingeniero de Datos & QA | Pipeline de ingesta, limpieza y validación de tipos (`src/data_loader.py`). |
-| **Ivy Janssen** | Ingeniero de Machine Learning | Modelos predictivos, evaluación y feature importances (`src/modeling.py`). |
-| **David Morales** | Analista de Datos & Visualización | Pruebas estadísticas y gráficos de alta resolución (`src/visualizer.py`).  |
+| **Jonathan Reyes** | Líder de Proyecto & analista de datos | Coordinación, diseño de arquitectura, integración GitHub. |
+| **Jesús Torres** | Creador multimedia | Pipeline de ingesta, limpieza y validación de tipos (`src/data_loader.py`). |
+| **Ivy Janssen** | Documentación | Modelos predictivos, evaluación y feature importances (`src/modeling.py`). |
+| **David Morales** |  | Pruebas estadísticas y gráficos de alta resolución (`src/visualizer.py`).  |
 
 ---
 
