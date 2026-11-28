@@ -1,0 +1,365 @@
+OrganizationIdentifier,ActivityIdentifier,MonitoringLocationIdentifier,ActivityStartDate,ActivityMediaSubdivisionName,ActivityTypeCode,cloruros_mg_l,conductividad_uS_cm,dureza_mg_l_CaCO3,fluoruros_mg_l,oxigeno_disuelto_mg_l,ph,sulfatos_mg_l,tds_mg_l,temp_agua_C,turbidez_FNU,turbidez_NTRU,parametros_evaluados,parametros_fuera,estado,cobertura_pct,preliminar,estimado,potabilidad
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202210260001^01,11NPSWRD_WQX-CHCH_CSCS,2022-10-26,,Field Msr/Obs,,629.0,,,1.85,6.9,,,15.0,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202211150001^01,11NPSWRD_WQX-CHCH_CSCS,2022-11-15,,Field Msr/Obs,,503.0,,,2.77,6.51,,,14.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202212280001^01,11NPSWRD_WQX-CHCH_CSCS,2022-12-28,,Field Msr/Obs,,310.0,,,7.55,6.17,,,14.6,,,2.0,1.0,Con excedencias,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202301190001^01,11NPSWRD_WQX-CHCH_CSCS,2023-01-19,,Field Msr/Obs,,302.0,,,7.33,6.22,,,15.2,,,2.0,1.0,Con excedencias,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202302270001^01,11NPSWRD_WQX-CHCH_CSCS,2023-02-27,,Field Msr/Obs,,300.0,,,7.37,6.33,,,15.0,,,2.0,1.0,Con excedencias,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202303160001^01,11NPSWRD_WQX-CHCH_CSCS,2023-03-16,,Field Msr/Obs,,247.0,,,7.92,6.89,,,14.7,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202304190001^01,11NPSWRD_WQX-CHCH_CSCS,2023-04-19,,Field Msr/Obs,,444.0,,,7.17,6.92,,,15.0,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202305230001^01,11NPSWRD_WQX-CHCH_CSCS,2023-05-23,,Field Msr/Obs,,416.0,,,6.79,7.15,,,15.2,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202306230001^01,11NPSWRD_WQX-CHCH_CSCS,2023-06-23,,Field Msr/Obs,,845.0,,,6.88,6.86,,,15.6,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202308230001^01,11NPSWRD_WQX-CHCH_CSCS,2023-08-23,,Field Msr/Obs,,530.0,,,1.13,7.24,,,19.7,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202309270001^01,11NPSWRD_WQX-CHCH_CSCS,2023-09-27,,Field Msr/Obs,,521.0,,,0.19,7.28,,,18.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202310260001^01,11NPSWRD_WQX-CHCH_CSCS,2023-10-26,,Field Msr/Obs,,600.0,,,1.45,6.92,,,15.7,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202311290001^01,11NPSWRD_WQX-CHCH_CSCS,2023-11-29,,Field Msr/Obs,,553.0,,,3.21,6.66,,,14.0,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202401240001^01,11NPSWRD_WQX-CHCH_CSCS,2024-01-24,,Field Msr/Obs,,396.0,,,7.22,6.83,,,15.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202402210001^01,11NPSWRD_WQX-CHCH_CSCS,2024-02-21,,Field Msr/Obs,,375.0,,,15.52,6.9,,,15.0,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202403110001^01,11NPSWRD_WQX-CHCH_CSCS,2024-03-11,,Field Msr/Obs,,225.0,,,8.43,6.96,,,14.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202404240001^01,11NPSWRD_WQX-CHCH_CSCS,2024-04-24,,Field Msr/Obs,,367.0,,,7.08,7.02,,,15.0,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202405220001^01,11NPSWRD_WQX-CHCH_CSCS,2024-05-22,,Field Msr/Obs,,351.0,,,6.43,6.98,,,15.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202406270001^01,11NPSWRD_WQX-CHCH_CSCS,2024-06-27,,Field Msr/Obs,,540.0,,,1.12,7.37,,,20.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202407300001^01,11NPSWRD_WQX-CHCH_CSCS,2024-07-30,,Field Msr/Obs,,288.0,,,2.94,7.3,,,22.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202408290001^01,11NPSWRD_WQX-CHCH_CSCS,2024-08-29,,Field Msr/Obs,,403.0,,,0.76,7.4,,,19.7,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_CSCS_202409300001^01,11NPSWRD_WQX-CHCH_CSCS,2024-09-30,,Field Msr/Obs,,346.0,,,4.91,7.02,,,15.8,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202210260001^01,11NPSWRD_WQX-CHCH_JSJS,2022-10-26,,Field Msr/Obs,,107.0,,,10.83,7.65,,,12.8,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202211150001^01,11NPSWRD_WQX-CHCH_JSJS,2022-11-15,,Field Msr/Obs,,118.0,,,11.73,6.97,,,12.2,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202212280001^01,11NPSWRD_WQX-CHCH_JSJS,2022-12-28,,Field Msr/Obs,,108.0,,,13.03,7.14,,,6.2,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202212280001^02,11NPSWRD_WQX-CHCH_JSJS,2022-12-28,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202301190001^01,11NPSWRD_WQX-CHCH_JSJS,2023-01-19,,Field Msr/Obs,,107.0,,,11.13,6.99,,,11.2,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202301190001^02,11NPSWRD_WQX-CHCH_JSJS,2023-01-19,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202302270001^01,11NPSWRD_WQX-CHCH_JSJS,2023-02-27,,Field Msr/Obs,,118.0,,,10.76,7.12,,,12.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202302270001^02,11NPSWRD_WQX-CHCH_JSJS,2023-02-27,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202303160001^01,11NPSWRD_WQX-CHCH_JSJS,2023-03-16,,Field Msr/Obs,,103.0,,,12.09,7.77,,,9.8,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202303160001^02,11NPSWRD_WQX-CHCH_JSJS,2023-03-16,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202304190001^01,11NPSWRD_WQX-CHCH_JSJS,2023-04-19,,Field Msr/Obs,,98.0,,,10.67,7.85,,,13.8,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202304190001^02,11NPSWRD_WQX-CHCH_JSJS,2023-04-19,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202305230001^01,11NPSWRD_WQX-CHCH_JSJS,2023-05-23,,Field Msr/Obs,,102.0,,,11.12,7.86,,,15.9,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202305230001^02,11NPSWRD_WQX-CHCH_JSJS,2023-05-23,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202306230001^01,11NPSWRD_WQX-CHCH_JSJS,2023-06-23,,Field Msr/Obs,,150.0,,,10.49,7.89,,,17.8,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202306230001^02,11NPSWRD_WQX-CHCH_JSJS,2023-06-23,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202308230001^01,11NPSWRD_WQX-CHCH_JSJS,2023-08-23,,Field Msr/Obs,,110.0,,,8.34,7.71,,,21.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202308230001^02,11NPSWRD_WQX-CHCH_JSJS,2023-08-23,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202309270001^01,11NPSWRD_WQX-CHCH_JSJS,2023-09-27,,Field Msr/Obs,,118.0,,,8.42,7.79,,,18.7,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202309270001^02,11NPSWRD_WQX-CHCH_JSJS,2023-09-27,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202310260001^01,11NPSWRD_WQX-CHCH_JSJS,2023-10-26,,Field Msr/Obs,,131.0,,,10.53,7.75,,,15.3,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202311290001^01,11NPSWRD_WQX-CHCH_JSJS,2023-11-29,,Field Msr/Obs,,169.0,,,12.73,7.74,,,7.2,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202311290001^02,11NPSWRD_WQX-CHCH_JSJS,2023-11-29,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202312220001^01,11NPSWRD_WQX-CHCH_JSJS,2023-12-22,,Field Msr/Obs,,101.0,,,11.47,7.57,,,8.4,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202312220001^02,11NPSWRD_WQX-CHCH_JSJS,2023-12-22,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202401240001^01,11NPSWRD_WQX-CHCH_JSJS,2024-01-24,,Field Msr/Obs,,93.0,,,12.33,7.3,,,7.2,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202401240001^02,11NPSWRD_WQX-CHCH_JSJS,2024-01-24,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202402210001^01,11NPSWRD_WQX-CHCH_JSJS,2024-02-21,,Field Msr/Obs,,98.0,,,11.48,7.53,,,9.2,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202402210001^02,11NPSWRD_WQX-CHCH_JSJS,2024-02-21,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202403110001^01,11NPSWRD_WQX-CHCH_JSJS,2024-03-11,,Field Msr/Obs,,119.0,,,11.14,7.81,,,10.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202403110001^02,11NPSWRD_WQX-CHCH_JSJS,2024-03-11,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202404240001^01,11NPSWRD_WQX-CHCH_JSJS,2024-04-24,,Field Msr/Obs,,112.0,,,11.52,7.82,,,13.9,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202404240001^02,11NPSWRD_WQX-CHCH_JSJS,2024-04-24,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202405220001^01,11NPSWRD_WQX-CHCH_JSJS,2024-05-22,,Field Msr/Obs,,113.0,,,10.2,7.76,,,17.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202405220001^02,11NPSWRD_WQX-CHCH_JSJS,2024-05-22,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202406270001^01,11NPSWRD_WQX-CHCH_JSJS,2024-06-27,,Field Msr/Obs,,114.0,,,9.79,7.92,,,19.8,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202406270001^02,11NPSWRD_WQX-CHCH_JSJS,2024-06-27,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202407300001^01,11NPSWRD_WQX-CHCH_JSJS,2024-07-30,,Field Msr/Obs,,128.0,,,9.3,7.97,,,20.8,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202407300001^02,11NPSWRD_WQX-CHCH_JSJS,2024-07-30,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202408290001^01,11NPSWRD_WQX-CHCH_JSJS,2024-08-29,,Field Msr/Obs,,126.0,,,5.95,7.8,,,20.4,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202408290001^02,11NPSWRD_WQX-CHCH_JSJS,2024-08-29,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202409300001^01,11NPSWRD_WQX-CHCH_JSJS,2024-09-30,,Field Msr/Obs,,133.0,,,8.96,7.82,,,18.8,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_JSJS_202409300001^02,11NPSWRD_WQX-CHCH_JSJS,2024-09-30,,Sample-Routine,,,,,,,,,,,,0.0,0.0,Sin datos evaluables,0.0,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202210250001^01,11NPSWRD_WQX-CHCH_SSSS,2022-10-25,,Field Msr/Obs,,229.0,,,10.95,7.26,,,14.3,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202211150001^01,11NPSWRD_WQX-CHCH_SSSS,2022-11-15,,Field Msr/Obs,,206.0,,,11.41,6.97,,,14.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202212280001^01,11NPSWRD_WQX-CHCH_SSSS,2022-12-28,,Field Msr/Obs,,160.0,,,11.06,6.96,,,13.9,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202301190001^01,11NPSWRD_WQX-CHCH_SSSS,2023-01-19,,Field Msr/Obs,,132.0,,,10.81,6.51,,,13.7,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202302270001^01,11NPSWRD_WQX-CHCH_SSSS,2023-02-27,,Field Msr/Obs,,141.0,,,10.84,6.69,,,13.7,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202303160001^01,11NPSWRD_WQX-CHCH_SSSS,2023-03-16,,Field Msr/Obs,,122.0,,,11.42,7.59,,,13.7,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202304190001^01,11NPSWRD_WQX-CHCH_SSSS,2023-04-19,,Field Msr/Obs,,66.0,,,10.89,7.64,,,13.9,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202305230001^01,11NPSWRD_WQX-CHCH_SSSS,2023-05-23,,Field Msr/Obs,,148.0,,,11.88,7.68,,,14.0,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202306230001^01,11NPSWRD_WQX-CHCH_SSSS,2023-06-23,,Field Msr/Obs,,749.0,,,11.65,7.6,,,14.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202308230001^01,11NPSWRD_WQX-CHCH_SSSS,2023-08-23,,Field Msr/Obs,,188.0,,,9.82,7.43,,,14.2,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202309270001^01,11NPSWRD_WQX-CHCH_SSSS,2023-09-27,,Field Msr/Obs,,255.0,,,9.97,7.51,,,14.2,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202310260001^01,11NPSWRD_WQX-CHCH_SSSS,2023-10-26,,Field Msr/Obs,,224.0,,,11.08,7.42,,,14.2,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202311290001^01,11NPSWRD_WQX-CHCH_SSSS,2023-11-29,,Field Msr/Obs,,191.0,,,10.98,7.25,,,14.0,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202312220001^01,11NPSWRD_WQX-CHCH_SSSS,2023-12-22,,Field Msr/Obs,,166.0,,,10.28,7.17,,,14.0,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202401240001^01,11NPSWRD_WQX-CHCH_SSSS,2024-01-24,,Field Msr/Obs,,134.0,,,10.93,7.15,,,13.6,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202402220001^01,11NPSWRD_WQX-CHCH_SSSS,2024-02-22,,Field Msr/Obs,,137.0,,,10.31,7.14,,,13.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202403110001^01,11NPSWRD_WQX-CHCH_SSSS,2024-03-11,,Field Msr/Obs,,125.0,,,10.77,7.67,,,13.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202404240001^01,11NPSWRD_WQX-CHCH_SSSS,2024-04-24,,Field Msr/Obs,,136.0,,,11.96,7.63,,,13.8,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202405220001^01,11NPSWRD_WQX-CHCH_SSSS,2024-05-22,,Field Msr/Obs,,153.0,,,11.32,7.58,,,14.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202406270001^01,11NPSWRD_WQX-CHCH_SSSS,2024-06-27,,Field Msr/Obs,,167.0,,,11.33,7.7,,,14.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202407300001^01,11NPSWRD_WQX-CHCH_SSSS,2024-07-30,,Field Msr/Obs,,186.0,,,10.88,7.69,,,14.2,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202408290001^01,11NPSWRD_WQX-CHCH_SSSS,2024-08-29,,Field Msr/Obs,,194.0,,,9.99,7.8,,,14.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,True,No determinada
+11NPSWRD_WQX,11NPSWRD_WQX-CHCH_SSSS_202409300001^01,11NPSWRD_WQX-CHCH_SSSS,2024-09-30,,Field Msr/Obs,,138.0,,,9.83,7.45,,,14.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02000692,USGS-312947084092201,2020-01-28,Groundwater,Sample-Routine,4.1,215.0,,,7.8,7.8,0.42,,20.9,,,4.0,0.0,Sin excedencias observadas,57.142857142857146,False,False,No determinada
+USGS-GA,nwisga.01.02000693,USGS-313604084105001,2020-01-27,Groundwater,Sample-Routine,1.9,285.0,,0.25,0.0,8.0,8.6,,22.7,0.1,,5.0,0.0,Sin excedencias observadas,71.42857142857143,False,False,No determinada
+USGS-GA,nwisga.01.02000694,USGS-313700084113401,2020-01-27,Groundwater,Sample-Routine,2.3,311.0,,0.17,0.0,7.6,6.5,,21.6,0.1,,5.0,0.0,Sin excedencias observadas,71.42857142857143,False,False,No determinada
+USGS-GA,nwisga.01.02000695,USGS-313650084122901,2020-01-27,Groundwater,Sample-Routine,1.8,282.0,,0.23,0.1,8.0,9.5,,22.0,0.1,,5.0,0.0,Sin excedencias observadas,71.42857142857143,False,False,No determinada
+USGS-GA,nwisga.01.02000696,USGS-313040084125901,2020-01-28,Groundwater,Sample-Routine,9.8,411.0,,,6.1,7.2,2.1,,18.8,0.7,,4.0,0.0,Sin excedencias observadas,57.142857142857146,False,False,No determinada
+USGS-GA,nwisga.01.02000697,USGS-313135084132201,2020-01-29,Groundwater,Sample-Routine,4.4,340.0,,,0.2,7.3,1.3,,20.2,5.9,,4.0,0.0,Sin excedencias observadas,57.142857142857146,False,False,No determinada
+USGS-GA,nwisga.01.02000698,USGS-313005084121401,2020-01-29,Groundwater,Sample-Routine,9.2,377.0,,,6.3,7.3,1.1,,19.5,0.3,,4.0,0.0,Sin excedencias observadas,57.142857142857146,False,False,No determinada
+USGS-GA,nwisga.01.02000699,USGS-313000084100301,2020-01-28,Groundwater,Sample-Routine,8.1,308.0,,,6.9,7.5,0.99,,21.0,0.9,,4.0,0.0,Sin excedencias observadas,57.142857142857146,False,False,No determinada
+USGS-GA,nwisga.01.02000700,USGS-313024084141101,2020-01-29,Groundwater,Sample-Routine,7.3,397.0,,,3.7,7.2,1.8,,21.6,0.7,,4.0,0.0,Sin excedencias observadas,57.142857142857146,False,False,No determinada
+USGS-GA,nwisga.01.02000960,USGS-332208081583001,2020-03-02,Groundwater,Sample-Routine,,29.0,,,8.5,4.0,,,20.7,0.2,0.1,2.0,1.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02000961,USGS-332159081582501,2020-03-02,Groundwater,Sample-Routine,,20.0,,,8.6,4.0,,,20.2,0.1,,2.0,1.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02000962,USGS-332137081581301,2020-03-02,Groundwater,Sample-Routine,,26.0,,,5.8,4.2,,,18.6,0.2,0.1,2.0,1.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02001703,USGS-332221081584602,2020-06-29,Groundwater,Sample-Routine,3.92,28.5,3.56,0.01,,5.0,0.27,,19.5,0.2,0.2,6.0,1.0,Con excedencias,85.71428571428571,False,True,No determinada
+USGS-GA,nwisga.01.02001704,USGS-332221081584601,2020-06-29,Groundwater,Sample-Routine,1.34,16.5,2.41,,,5.55,0.27,,20.5,0.5,0.5,5.0,1.0,Con excedencias,71.42857142857143,False,True,No determinada
+USGS-GA,nwisga.01.02001705,USGS-332216081583601,2020-06-30,Groundwater,Sample-Routine,3.26,28.5,6.18,0.02,,5.35,0.31,23.0,20.1,2.5,2.5,7.0,1.0,Con excedencias,100.0,False,True,No determinada
+USGS-GA,nwisga.01.02001706,USGS-332215081575201,2020-06-30,Groundwater,Sample-Routine,3.32,38.5,4.79,0.01,,5.25,0.19,29.0,20.5,2.5,4.8,7.0,1.0,Con excedencias,100.0,False,True,No determinada
+USGS-GA,nwisga.01.02001707,USGS-332159081582501,2020-07-01,Groundwater,Sample-Routine,2.0,19.0,2.57,0.01,,5.25,0.34,,20.5,0.2,,6.0,1.0,Con excedencias,85.71428571428571,False,True,No determinada
+USGS-GA,nwisga.01.02001708,USGS-332137081581301,2020-07-01,Groundwater,Sample-Routine,3.22,24.5,3.21,0.01,,5.8,0.99,23.0,18.8,0.2,0.2,7.0,1.0,Con excedencias,100.0,False,True,No determinada
+USGS-GA,nwisga.01.02001709,USGS-332141081583601,2020-07-01,Groundwater,Sample-Routine,1.89,17.0,2.21,0.01,,5.2,0.4,,19.5,0.1,,6.0,1.0,Con excedencias,85.71428571428571,False,True,No determinada
+USGS-GA,nwisga.01.02001710,USGS-332146081582201,2020-07-01,Groundwater,Sample-Routine,2.44,21.0,2.59,0.01,,5.2,0.49,,19.5,0.6,,6.0,1.0,Con excedencias,85.71428571428571,False,True,No determinada
+USGS-GA,nwisga.01.02001727,USGS-332141081591901,2020-06-30,Groundwater,Sample-Routine,1.37,17.0,3.91,0.01,,5.55,0.71,,19.9,1.1,,6.0,1.0,Con excedencias,85.71428571428571,False,True,No determinada
+USGS-GA,nwisga.01.02100319,USGS-311007081301702,2020-10-28,Groundwater,Sample-Routine,,8080.0,,,,,,,28.3,,,1.0,1.0,Con excedencias,14.285714285714286,False,False,No determinada
+USGS-GA,nwisga.01.02100320,USGS-310953081295901,2020-10-26,Groundwater,Sample-Routine,1100.0,4290.0,,,,,,,26.5,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100524,USGS-312937084131901,2021-01-26,Groundwater,Sample-Routine,9.42,315.0,143.0,0.02,8.4,7.7,0.53,184.0,20.7,1.2,,7.0,0.0,Sin excedencias observadas,100.0,False,False,No determinada
+USGS-GA,nwisga.01.02100525,USGS-313000084100301,2021-01-27,Groundwater,Sample-Routine,9.22,316.0,147.0,0.02,7.2,7.75,0.95,188.0,20.9,2.0,,7.0,0.0,Sin excedencias observadas,100.0,False,False,No determinada
+USGS-GA,nwisga.01.02100526,USGS-313005084121401,2021-01-26,Groundwater,Sample-Routine,9.68,376.0,179.0,0.02,6.5,7.6,1.17,221.0,20.6,1.4,,7.0,0.0,Sin excedencias observadas,100.0,False,False,No determinada
+USGS-GA,nwisga.01.02100527,USGS-313024084141101,2021-01-25,Groundwater,Sample-Routine,7.72,404.5,193.0,0.02,3.5,7.449999999999999,1.85,228.0,22.7,0.7,,7.0,0.0,Sin excedencias observadas,100.0,False,False,No determinada
+USGS-GA,nwisga.01.02100528,USGS-313038084122501,2021-01-26,Groundwater,Sample-Routine,9.74,373.5,174.0,0.02,7.1,7.55,3.1,223.0,21.9,1.0,,7.0,0.0,Sin excedencias observadas,100.0,False,False,No determinada
+USGS-GA,nwisga.01.02100529,USGS-313106084124901,2021-01-25,Groundwater,Sample-Routine,7.33,371.0,186.0,0.02,3.9,7.5,2.49,211.0,21.8,0.3,,7.0,0.0,Sin excedencias observadas,100.0,False,False,No determinada
+USGS-GA,nwisga.01.02100530,USGS-313135084132201,2021-01-25,Groundwater,Sample-Routine,4.82,342.5,171.0,0.03,0.0,7.5,1.32,196.0,21.5,4.5,,7.0,0.0,Sin excedencias observadas,100.0,False,False,No determinada
+USGS-GA,nwisga.01.02100758,USGS-311036081302601,2020-10-26,Groundwater,Sample-Routine,60.0,611.0,,,,,,,24.9,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100759,USGS-310727081285301,2020-10-28,Groundwater,Sample-Routine,97.0,740.0,,,,,,,25.8,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100760,USGS-310646081292001,2020-10-27,Groundwater,Sample-Routine,540.0,2540.0,,,,,,,25.3,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100761,USGS-310621081293201,2020-10-26,Groundwater,Sample-Routine,19.0,468.0,,,,,,,23.4,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100762,USGS-311407081283401,2020-10-27,Groundwater,Sample-Routine,26.0,507.0,,,,,,,23.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100763,USGS-310841081294101,2020-10-28,Groundwater,Sample-Routine,1200.0,4840.0,,,,,,,27.3,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100764,USGS-310852081295401,2020-10-27,Groundwater,Sample-Routine,530.0,2290.0,,,,,,,26.4,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100765,USGS-311255081312501,2020-10-26,Groundwater,Sample-Routine,21.0,458.0,,,,,,,27.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100766,USGS-310938081285301,2020-10-27,Groundwater,Sample-Routine,980.0,3750.0,,,,,,,25.2,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100767,USGS-310938081285302,2020-10-27,Groundwater,Sample-Routine,28.0,478.0,,,,,,,25.7,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100768,USGS-310924081295201,2020-10-26,Groundwater,Sample-Routine,1800.0,6490.0,,,,,,,26.5,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100769,USGS-311007081301701,2020-10-29,Groundwater,Sample-Routine,1000.0,3990.0,,,,,,,27.7,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100770,USGS-310924081295202,2020-10-27,Groundwater,Sample-Routine,450.0,2060.0,,,,,,,24.6,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100771,USGS-310822081295801,2020-10-28,Groundwater,Sample-Routine,160.0,983.0,,,,,,,26.2,,,2.0,1.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100772,USGS-310818081293701,2020-10-26,Groundwater,Sample-Routine,14.0,440.0,,,,,,,26.0,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100773,USGS-310940081293201,2020-10-27,Groundwater,Sample-Routine,360.0,1880.0,,,,,,,25.1,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100774,USGS-310818081294201,2020-10-27,Groundwater,Sample-Routine,2800.0,9420.0,,,,,,,27.0,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100775,USGS-310825081294201,2020-10-27,Groundwater,Sample-Routine,1900.0,6880.0,,,,,,,27.5,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100776,USGS-310750081292001,2020-10-26,Groundwater,Sample-Routine,6300.0,19700.0,,,,,,,24.4,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100777,USGS-310936081294901,2020-10-26,Groundwater,Sample-Routine,540.0,2320.0,,,,,,,,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100778,USGS-310945081295402,2020-10-27,Groundwater,Sample-Routine,1900.0,7880.0,,,,,,,27.5,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100779,USGS-311022081303101,2020-10-27,Groundwater,Sample-Routine,2000.0,7480.0,,,,,,,24.9,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100780,USGS-310822081294201,2020-10-26,Groundwater,Sample-Routine,1300.0,4810.0,,,,,,,26.5,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100781,USGS-310951081284602,2020-10-26,Groundwater,Sample-Routine,570.0,,,,,,,,,,,1.0,1.0,Con excedencias,14.285714285714286,False,False,No determinada
+USGS-GA,nwisga.01.02100782,USGS-311011081293101,2020-10-27,Groundwater,Sample-Routine,2100.0,7900.0,,,,,,,,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100783,USGS-310938081285303,2020-10-27,Groundwater,Sample-Routine,610.0,2640.0,,,,,,,,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100784,USGS-311016081294202,2020-10-28,Groundwater,Sample-Routine,1100.0,4050.0,,,,,,,24.5,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100785,USGS-310911081294101,2020-10-27,Groundwater,Sample-Routine,1500.0,5910.0,,,,,,,26.8,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100786,USGS-311036081285701,2020-10-29,Groundwater,Sample-Routine,48.0,567.0,,,,,,,25.2,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100787,USGS-310902081284301,2020-10-26,Groundwater,Sample-Routine,20.0,455.0,,,,,,,25.4,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100788,USGS-310956081283101,2020-10-28,Groundwater,Sample-Routine,12.0,,,,,,,,,,,1.0,0.0,Sin excedencias observadas,14.285714285714286,False,False,No determinada
+USGS-GA,nwisga.01.02100789,USGS-311020081295205,2020-10-28,Groundwater,Sample-Routine,650.0,2790.0,,,,,,,25.4,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100790,USGS-311007081301702,2020-10-29,Groundwater,Sample-Routine,2300.0,8080.0,,,,,,,28.3,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100791,USGS-310835081294501,2020-10-26,Groundwater,Sample-Routine,4600.0,15700.0,,,,,,,26.3,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100792,USGS-310835081294502,2020-10-26,Groundwater,Sample-Routine,17.0,264.0,,,,,,,28.7,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100793,USGS-310810081292801,2020-10-29,Groundwater,Sample-Routine,14.0,460.0,,,,,,,25.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100794,USGS-310810081292802,2020-10-29,Groundwater,Sample-Routine,170.0,1020.0,,,,,,,25.8,,,2.0,1.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100795,USGS-311028081285901,2020-10-29,Groundwater,Sample-Routine,60.0,,,,,,,,,,,1.0,0.0,Sin excedencias observadas,14.285714285714286,True,False,No determinada
+USGS-GA,nwisga.01.02100796,USGS-311051081295401,2020-10-29,Groundwater,Sample-Routine,100.0,753.0,,,,,,,25.2,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100797,USGS-310748081290401,2020-10-27,Groundwater,Sample-Routine,150.0,1110.0,,,,,,,24.6,,,2.0,1.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100798,USGS-311021081302801,2020-10-27,Groundwater,Sample-Routine,2100.0,7920.0,,,,,,,27.2,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100799,USGS-310925081312201,2020-10-28,Groundwater,Sample-Routine,490.0,2380.0,,,,,,,24.8,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100800,USGS-311027081310401,2020-10-28,Groundwater,Sample-Routine,1300.0,4640.0,,,,,,,29.3,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100801,USGS-311038081305501,2020-10-28,Groundwater,Sample-Routine,250.0,1370.0,,,,,,,28.0,,,2.0,1.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100802,USGS-311014081310802,2020-10-28,Groundwater,Sample-Routine,730.0,3190.0,,,,,,,27.5,,,2.0,2.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100803,USGS-311007081311201,2020-10-28,Groundwater,Sample-Routine,33.0,541.0,,,,,,,24.6,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100804,USGS-311037081311201,2020-10-28,Groundwater,Sample-Routine,180.0,1140.0,,,,,,,26.4,,,2.0,1.0,Con excedencias,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100805,USGS-311028081285902,2020-10-29,Groundwater,Sample-Routine,60.0,601.0,,,,,,,25.4,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,False,False,No determinada
+USGS-GA,nwisga.01.02100926,USGS-313040084125901,2021-01-27,Groundwater,Sample-Routine,10.6,391.0,191.0,0.02,6.0,7.75,2.14,225.0,21.1,1.7,,7.0,0.0,Sin excedencias observadas,100.0,False,False,No determinada
+USGS-GA,nwisga.01.02101719,USGS-331846082020201,2021-06-30,Groundwater,Sample-Routine,2.14,100.5,45.4,0.17,0.3,9.350000000000001,4.35,66.0,23.9,0.2,,7.0,1.0,Con excedencias,100.0,False,True,No determinada
+USGS-GA,nwisga.01.02101720,USGS-332221081584602,2021-06-28,Groundwater,Sample-Routine,4.62,31.0,3.79,0.02,8.4,4.95,0.27,25.0,19.9,0.1,,7.0,1.0,Con excedencias,100.0,False,True,No determinada
+USGS-GA,nwisga.01.02101721,USGS-332216081583601,2021-06-29,Groundwater,Sample-Routine,3.79,29.0,5.24,0.02,8.3,5.449999999999999,0.28,30.0,20.1,1.8,,7.0,1.0,Con excedencias,100.0,False,True,No determinada
+USGS-GA,nwisga.01.02101724,USGS-332146081582201,2021-06-30,Groundwater,Sample-Routine,2.39,20.5,2.46,0.01,7.3,5.35,0.48,,19.6,0.1,,6.0,1.0,Con excedencias,85.71428571428571,False,True,No determinada
+USGS-GA,nwisga.01.02101725,USGS-332141081583601,2021-06-30,Groundwater,Sample-Routine,1.88,17.0,2.11,0.01,8.1,5.3,0.39,21.0,19.6,0.1,,7.0,1.0,Con excedencias,100.0,False,True,No determinada
+USGS-GA,nwisga.01.02101726,USGS-332137081581301,2021-06-29,Groundwater,Sample-Routine,3.2,24.5,2.94,0.01,5.8,5.6,0.98,24.0,19.9,,0.3,7.0,1.0,Con excedencias,100.0,False,True,No determinada
+USGS-GA,nwisga.01.02101730,USGS-332141081591901,2021-06-30,Groundwater,Sample-Routine,1.17,12.5,2.13,0.01,9.3,5.65,0.36,,20.1,3.0,,6.0,1.0,Con excedencias,85.71428571428571,False,True,No determinada
+USGS-GA,nwisga.01.02102073,USGS-332221081584601,2021-06-28,Groundwater,Sample-Routine,1.37,15.5,2.54,0.01,8.6,5.449999999999999,0.27,23.0,20.1,0.5,,7.0,1.0,Con excedencias,100.0,False,True,No determinada
+USGS-GA,nwisga.01.02200400,USGS-313038084122501,2021-12-06,Groundwater,Sample-Routine,9.85,374.0,168.0,0.03,,8.1,3.38,214.0,,,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02200401,USGS-312947084092201,2021-12-07,Groundwater,Sample-Routine,4.69,217.5,101.0,0.03,7.6,7.85,0.41,,14.3,3.1,,6.0,0.0,Sin excedencias observadas,85.71428571428571,True,False,No determinada
+USGS-GA,nwisga.01.02200402,USGS-313024084141101,2021-12-07,Groundwater,Sample-Routine,7.81,406.0,190.0,0.02,3.5,7.65,1.93,234.0,20.2,0.1,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02200403,USGS-313000084100301,2021-12-07,Groundwater,Sample-Routine,9.34,316.5,144.0,0.02,7.1,7.699999999999999,0.98,184.0,15.2,0.9,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02200404,USGS-313005084121401,2021-12-07,Groundwater,Sample-Routine,9.58,374.0,172.0,0.02,6.6,7.6,1.18,216.0,27.8,0.6,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02200405,USGS-313106084124901,2021-12-06,Groundwater,Sample-Routine,7.54,371.0,175.0,0.03,4.0,7.6,2.64,213.0,20.8,0.3,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02201504,USGS-310955081311701,2021-10-27,Groundwater,Sample-Routine,130.0,1327.5,,,,,,,25.1,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201505,USGS-311036081302601,2021-10-25,Groundwater,Sample-Routine,72.0,618.0,,,,,,,24.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201506,USGS-311007081301701,2021-10-26,Groundwater,Sample-Routine,1000.0,4255.0,,,,,,,24.8,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201507,USGS-311022081303101,2021-10-26,Groundwater,Sample-Routine,2000.0,7.2,,,,,,,,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201508,USGS-311007081301702,2021-10-26,Groundwater,Sample-Routine,230.0,8110.0,,,,,,,25.6,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201509,USGS-311021081302801,2021-10-26,Groundwater,Sample-Routine,2200.0,7530.0,,,,,,,26.9,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201510,USGS-311255081312501,2021-10-28,Groundwater,Sample-Routine,5.9,297.5,,,,,,,23.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201511,USGS-310925081312201,2021-10-27,Groundwater,Sample-Routine,530.0,2515.0,,,,,,,22.7,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201512,USGS-310925081312202,2021-10-27,Groundwater,Sample-Routine,4.8,363.5,,,,,,,22.2,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201513,USGS-311027081310401,2021-10-27,Groundwater,Sample-Routine,1300.0,4565.0,,,,,,,23.5,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201514,USGS-311038081305501,2021-10-27,Groundwater,Sample-Routine,210.0,1265.0,,,,,,,23.4,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201515,USGS-311042081311701,2021-10-28,Groundwater,Sample-Routine,18.0,449.0,,,,,,,24.7,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201516,USGS-311014081310802,2021-10-27,Groundwater,Sample-Routine,840.0,3200.0,,,,,,,26.8,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201517,USGS-311007081311201,2021-10-27,Groundwater,Sample-Routine,31.0,524.5,,,,,,,24.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201518,USGS-310727081285301,2021-10-28,Groundwater,Sample-Routine,48.0,599.0,,,,,,,22.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201519,USGS-310646081292001,2021-10-26,Groundwater,Sample-Routine,550.0,2550.0,,,,,,,24.0,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201520,USGS-310621081293201,2021-10-25,Groundwater,Sample-Routine,49.0,585.5,,,,,,,23.4,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201521,USGS-311407081283401,2021-10-26,Groundwater,Sample-Routine,29.0,506.5,,,,,,,23.9,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201522,USGS-311002081283701,2021-10-27,Groundwater,Sample-Routine,230.0,1245.0,,,,,,,21.9,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201523,USGS-310841081294101,2021-10-25,Groundwater,Sample-Routine,1300.0,4880.0,,,,,,,25.6,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201524,USGS-310852081295401,2021-10-25,Groundwater,Sample-Routine,530.0,2300.0,,,,,,,25.5,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201525,USGS-310938081285301,2021-10-26,Groundwater,Sample-Routine,1100.0,3915.0,,,,,,,24.7,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201526,USGS-310938081285302,2021-10-26,Groundwater,Sample-Routine,24.0,467.5,,,,,,,23.7,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201527,USGS-310924081295201,2021-10-25,Groundwater,Sample-Routine,1700.0,6385.0,,,,,,,27.1,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201528,USGS-310924081295202,2021-10-25,Groundwater,Sample-Routine,330.0,1645.0,,,,,,,25.1,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201529,USGS-310822081295801,2021-10-28,Groundwater,Sample-Routine,37.0,502.0,,,,,,,22.7,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201530,USGS-310818081293701,2021-10-25,Groundwater,Sample-Routine,14.0,446.5,,,,,,,24.9,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201531,USGS-310940081293201,2021-10-26,Groundwater,Sample-Routine,420.0,1785.0,,,,,,,25.1,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201532,USGS-310953081295901,2021-10-26,Groundwater,Sample-Routine,1000.0,4120.0,,,,,,,25.5,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201533,USGS-310818081294201,2021-10-28,Groundwater,Sample-Routine,1500.0,7500.0,,,,,,,26.1,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201534,USGS-310825081294201,2021-10-25,Groundwater,Sample-Routine,2000.0,7030.0,,,,,,,27.0,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201535,USGS-310750081292001,2021-10-25,Groundwater,Sample-Routine,6100.0,18500.0,,,,,,,26.0,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201536,USGS-310936081294901,2021-10-25,Groundwater,Sample-Routine,500.0,2310.0,,,,,,,,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201537,USGS-310945081295402,2021-10-26,Groundwater,Sample-Routine,2200.0,7565.0,,,,,,,26.8,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201538,USGS-310822081294201,2021-10-27,Groundwater,Sample-Routine,1400.0,5060.0,,,,,,,27.1,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201539,USGS-311011081293101,2021-10-27,Groundwater,Sample-Routine,2200.0,7.5,,,,,,,,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201540,USGS-310938081285303,2021-10-26,Groundwater,Sample-Routine,800.0,3045.0,,,,,,,23.0,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201541,USGS-311016081294202,2021-10-27,Groundwater,Sample-Routine,740.0,3180.0,,,,,,,,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201542,USGS-310911081294101,2021-10-26,Groundwater,Sample-Routine,1500.0,5795.0,,,,,,,23.7,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201543,USGS-310902081284301,2021-10-26,Groundwater,Sample-Routine,21.0,455.5,,,,,,,22.8,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201544,USGS-311036081285701,2021-10-26,Groundwater,Sample-Routine,50.0,566.5,,,,,,,25.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201545,USGS-310956081283101,2021-10-27,Groundwater,Sample-Routine,16.0,428.5,,,,,,,21.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201546,USGS-311020081295205,2021-10-27,Groundwater,Sample-Routine,1000.0,3.9,,,,,,,,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201547,USGS-310835081294501,2021-10-25,Groundwater,Sample-Routine,4400.0,14650.0,,,,,,,25.0,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201548,USGS-310835081294502,2021-10-25,Groundwater,Sample-Routine,18.0,259.0,,,,,,,27.6,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201549,USGS-310810081292801,2021-10-28,Groundwater,Sample-Routine,14.0,427.0,,,,,,,22.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201550,USGS-310810081292802,2021-10-28,Groundwater,Sample-Routine,200.0,1025.0,,,,,,,20.8,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201551,USGS-311028081285902,2021-10-26,Groundwater,Sample-Routine,85.0,646.5,,,,,,,25.9,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201552,USGS-311051081295401,2021-10-26,Groundwater,Sample-Routine,65.0,631.0,,,,,,,25.1,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201553,USGS-310748081290401,2021-10-28,Groundwater,Sample-Routine,67.0,807.0,,,,,,,22.7,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02201621,USGS-331831082011901,2022-06-30,Groundwater,Sample-Routine,1.71,17.5,2.59,0.02,6.8,5.2,1.29,,19.2,,0.3,6.0,1.0,Con excedencias,85.71428571428571,False,True,No determinada
+USGS-GA,nwisga.01.02201622,USGS-332137081581301,2022-06-28,Groundwater,Sample-Routine,3.09,24.0,3.1,0.01,5.6,5.35,0.94,23.0,18.9,,1.0,7.0,1.0,Con excedencias,100.0,False,True,No determinada
+USGS-GA,nwisga.01.02201623,USGS-332141081583601,2022-06-29,Groundwater,Sample-Routine,1.79,16.0,2.13,,7.9,5.4,0.38,,19.5,,0.2,5.0,1.0,Con excedencias,71.42857142857143,False,True,No determinada
+USGS-GA,nwisga.01.02201624,USGS-332141081591901,2022-06-29,Groundwater,Sample-Routine,1.2,12.5,2.08,0.01,9.1,5.55,0.35,23.0,19.8,,3.3,7.0,1.0,Con excedencias,100.0,False,True,No determinada
+USGS-GA,nwisga.01.02201625,USGS-332146081582201,2022-06-29,Groundwater,Sample-Routine,2.3,20.0,2.4,,7.3,5.1,0.49,,19.6,,0.2,5.0,1.0,Con excedencias,71.42857142857143,False,True,No determinada
+USGS-GA,nwisga.01.02201629,USGS-332216081583601,2022-06-28,Groundwater,Sample-Routine,4.03,29.5,5.38,0.01,8.2,5.3,0.23,,20.0,,2.8,6.0,1.0,Con excedencias,85.71428571428571,False,True,No determinada
+USGS-GA,nwisga.01.02201630,USGS-332221081584601,2022-06-27,Groundwater,Sample-Routine,1.34,16.0,2.37,,8.8,5.300000000000001,0.27,,19.9,,0.0,5.0,1.0,Con excedencias,71.42857142857143,False,True,No determinada
+USGS-GA,nwisga.01.02201631,USGS-332221081584602,2022-06-27,Groundwater,Sample-Routine,4.66,32.5,4.13,0.01,8.0,4.95,0.27,27.0,19.8,,0.0,7.0,1.0,Con excedencias,100.0,False,True,No determinada
+USGS-GA,nwisga.01.02201842,USGS-343914085165901,2022-08-30,Groundwater,Sample-Routine,1.66,206.0,112.0,0.03,5.7,7.35,2.38,116.0,16.6,,0.7,7.0,0.0,Sin excedencias observadas,100.0,False,False,No determinada
+USGS-GA,nwisga.01.02201843,USGS-345255085174201,2022-08-30,Groundwater,Sample-Routine,2.25,298.0,165.0,0.03,7.0,7.6,3.08,169.5,17.8,,0.6,7.0,0.0,Sin excedencias observadas,100.0,False,False,No determinada
+USGS-GA,nwisga.01.02201844,USGS-335943085032801,2022-08-29,Groundwater,Sample-Routine,2.23,266.5,142.0,0.03,4.9,7.85,3.72,147.5,17.5,,0.6,7.0,0.0,Sin excedencias observadas,100.0,False,False,No determinada
+USGS-GA,nwisga.01.02201846,USGS-344855084461101,2022-08-31,Groundwater,Sample-Routine,2.99,323.0,176.0,0.04,4.1,7.45,2.31,180.0,16.2,,0.7,7.0,0.0,Sin excedencias observadas,100.0,False,False,No determinada
+USGS-GA,nwisga.01.02300315,USGS-311036081302601,2022-10-24,Groundwater,Sample-Routine,65.0,615.5,,,,,,,,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300316,USGS-311007081301701,2022-10-24,Groundwater,Sample-Routine,930.0,4120.0,,,,,,,24.3,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300317,USGS-311022081303101,2022-10-25,Groundwater,Sample-Routine,1900.0,7535.0,,,,,,,,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300318,USGS-311007081301702,2022-10-24,Groundwater,Sample-Routine,2100.0,8235.0,,,,,,,24.9,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300319,USGS-311021081302801,2022-10-25,Groundwater,Sample-Routine,2000.0,7645.0,,,,,,,,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300320,USGS-311255081312501,2022-10-24,Groundwater,Sample-Routine,44.0,463.5,,,,,,,26.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300321,USGS-310925081312201,2022-10-26,Groundwater,Sample-Routine,520.0,2410.0,,,,,,,24.3,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300322,USGS-310925081312202,2022-10-26,Groundwater,Sample-Routine,16.0,406.0,,,,,,,24.0,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300323,USGS-311027081310401,2022-10-26,Groundwater,Sample-Routine,1200.0,4950.0,,,,,,,28.0,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300324,USGS-311038081305501,2022-10-26,Groundwater,Sample-Routine,240.0,1345.0,,,,,,,23.8,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300325,USGS-311042081311701,2022-10-27,Groundwater,Sample-Routine,17.0,442.0,,,,,,,25.6,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300326,USGS-311014081310802,2022-10-26,Groundwater,Sample-Routine,750.0,3370.0,,,,,,,27.6,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300327,USGS-311007081311201,2022-10-26,Groundwater,Sample-Routine,32.0,541.0,,,,,,,25.7,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300328,USGS-311037081311201,2022-10-26,Groundwater,Sample-Routine,280.0,1565.0,,,,,,,25.6,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300329,USGS-310727081285301,2022-10-27,Groundwater,Sample-Routine,82.0,755.0,,,,,,,22.9,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300330,USGS-310646081292001,2022-10-25,Groundwater,Sample-Routine,560.0,2565.0,,,,,,,24.2,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300331,USGS-310621081293201,2022-10-24,Groundwater,Sample-Routine,43.0,603.0,,,,,,,23.4,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300332,USGS-311407081283401,2022-10-24,Groundwater,Sample-Routine,27.0,518.5,,,,,,,26.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300333,USGS-311002081283701,2022-10-27,Groundwater,Sample-Routine,200.0,1190.0,,,,,,,25.1,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300334,USGS-310841081294101,2022-10-27,Groundwater,Sample-Routine,1200.0,4845.0,,,,,,,23.1,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300335,USGS-310852081295401,2022-10-25,Groundwater,Sample-Routine,490.0,2235.0,,,,,,,25.4,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300336,USGS-310938081285301,2022-10-27,Groundwater,Sample-Routine,870.0,3775.0,,,,,,,25.0,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300337,USGS-310938081285302,2022-10-27,Groundwater,Sample-Routine,22.0,461.0,,,,,,,24.0,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300338,USGS-310924081295201,2022-10-24,Groundwater,Sample-Routine,1700.0,6505.0,,,,,,,,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300339,USGS-310924081295202,2022-10-24,Groundwater,Sample-Routine,310.0,1610.0,,,,,,,,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300340,USGS-310822081295801,2022-10-27,Groundwater,Sample-Routine,91.0,708.0,,,,,,,22.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300341,USGS-310818081293701,2022-10-24,Groundwater,Sample-Routine,14.0,453.0,,,,,,,25.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300342,USGS-310940081293201,2022-10-25,Groundwater,Sample-Routine,350.0,1805.0,,,,,,,,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300343,USGS-310953081295901,2022-10-25,Groundwater,Sample-Routine,950.0,4090.0,,,,,,,,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300344,USGS-310818081294201,2022-10-25,Groundwater,Sample-Routine,2700.0,9530.0,,,,,,,25.9,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300345,USGS-310825081294201,2022-10-25,Groundwater,Sample-Routine,1800.0,7060.0,,,,,,,26.9,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300346,USGS-310750081292001,2022-10-25,Groundwater,Sample-Routine,5900.0,19200.0,,,,,,,24.3,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300347,USGS-310936081294901,2022-10-24,Groundwater,Sample-Routine,470.0,2145.0,,,,,,,,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300348,USGS-310945081295402,2022-10-24,Groundwater,Sample-Routine,1900.0,7160.0,,,,,,,,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300349,USGS-310822081294201,2022-10-25,Groundwater,Sample-Routine,1300.0,4805.0,,,,,,,27.0,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300350,USGS-311011081293101,2022-10-25,Groundwater,Sample-Routine,2000.0,7760.0,,,,,,,,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300351,USGS-310938081285303,2022-10-27,Groundwater,Sample-Routine,470.0,2095.0,,,,,,,22.6,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300352,USGS-311016081294202,2022-10-26,Groundwater,Sample-Routine,650.0,2830.0,,,,,,,,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300353,USGS-310911081294101,2022-10-25,Groundwater,Sample-Routine,1400.0,5605.0,,,,,,,24.8,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300354,USGS-310902081284301,2022-10-24,Groundwater,Sample-Routine,15.0,446.5,,,,,,,23.0,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300355,USGS-311036081285701,2022-10-24,Groundwater,Sample-Routine,51.0,591.0,,,,,,,25.4,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300356,USGS-310956081283101,2022-10-27,Groundwater,Sample-Routine,15.0,396.0,,,,,,,24.7,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300357,USGS-311020081295205,2022-10-26,Groundwater,Sample-Routine,980.0,4120.0,,,,,,,,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300358,USGS-310835081294501,2022-10-24,Groundwater,Sample-Routine,3600.0,13550.0,,,,,,,23.8,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300359,USGS-310835081294502,2022-10-24,Groundwater,Sample-Routine,17.0,265.0,,,,,,,26.4,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300360,USGS-310810081292801,2022-10-26,Groundwater,Sample-Routine,15.0,454.5,,,,,,,24.9,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300361,USGS-310810081292802,2022-10-26,Groundwater,Sample-Routine,180.0,1095.0,,,,,,,25.1,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300362,USGS-311028081285902,2022-10-24,Groundwater,Sample-Routine,65.0,626.5,,,,,,,25.0,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300363,USGS-311051081295401,2022-10-24,Groundwater,Sample-Routine,140.0,874.0,,,,,,,23.5,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300364,USGS-310748081290401,2022-10-26,Groundwater,Sample-Routine,150.0,1095.0,,,,,,,22.5,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02300533,USGS-312947084092201,2022-11-29,Groundwater,Sample-Routine,4.83,221.0,110.0,0.03,7.7,7.9,0.42,,20.8,,,6.0,0.0,Sin excedencias observadas,85.71428571428571,True,False,No determinada
+USGS-GA,nwisga.01.02300534,USGS-312937084131901,2022-11-29,Groundwater,Sample-Routine,10.9,318.5,154.0,0.02,8.3,7.75,0.31,189.0,20.8,,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02300536,USGS-313106084124901,2022-11-28,Groundwater,Sample-Routine,7.43,373.0,190.0,0.02,3.4,7.6,2.54,198.0,20.8,,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02300537,USGS-313005084121401,2022-11-30,Groundwater,Sample-Routine,9.35,374.0,187.0,0.02,6.3,7.65,1.2,196.0,20.6,,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02300538,USGS-313000084100301,2022-11-29,Groundwater,Sample-Routine,9.13,316.0,157.0,0.02,6.9,7.7,0.96,186.0,21.1,,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02300539,USGS-313038084122501,2022-11-28,Groundwater,Sample-Routine,9.57,380.0,186.0,0.02,6.2,7.699999999999999,3.41,191.0,21.6,,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02300540,USGS-313024084141101,2022-11-30,Groundwater,Sample-Routine,7.64,407.0,206.0,0.02,3.5,7.550000000000001,1.82,224.0,22.4,,,7.0,1.0,Con excedencias,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02302030,USGS-332221081584601,2023-08-14,Groundwater,Sample-Routine,1.36,15.5,2.28,,8.9,5.5,0.25,23.0,20.2,,,6.0,1.0,Con excedencias,85.71428571428571,True,True,No determinada
+USGS-GA,nwisga.01.02302033,USGS-332221081584602,2023-08-14,Groundwater,Sample-Routine,4.62,33.5,4.05,0.01,8.2,5.15,0.25,29.0,19.4,,,7.0,1.0,Con excedencias,100.0,True,True,No determinada
+USGS-GA,nwisga.01.02302035,USGS-332216081583601,2023-08-15,Groundwater,Sample-Routine,4.08,31.5,4.7,0.01,8.3,5.2,0.21,22.0,20.1,,,7.0,1.0,Con excedencias,100.0,True,True,No determinada
+USGS-GA,nwisga.01.02302040,USGS-332137081581301,2023-08-15,Groundwater,Sample-Routine,3.14,26.0,3.16,0.01,5.6,5.45,1.05,23.0,21.0,,,7.0,1.0,Con excedencias,100.0,True,True,No determinada
+USGS-GA,nwisga.01.02302041,USGS-332146081582201,2023-08-16,Groundwater,Sample-Routine,2.29,21.0,2.43,0.01,7.5,5.45,0.47,,19.5,,,6.0,1.0,Con excedencias,85.71428571428571,True,True,No determinada
+USGS-GA,nwisga.01.02302042,USGS-332141081583601,2023-08-16,Groundwater,Sample-Routine,1.84,17.0,2.17,0.01,8.1,5.449999999999999,0.37,,19.5,,,6.0,1.0,Con excedencias,85.71428571428571,True,True,No determinada
+USGS-GA,nwisga.01.02302045,USGS-332141081591901,2023-08-16,Groundwater,Sample-Routine,1.24,13.0,2.42,0.01,9.2,5.699999999999999,0.39,,20.3,,,6.0,1.0,Con excedencias,85.71428571428571,True,True,No determinada
+USGS-GA,nwisga.01.02302048,USGS-331805082010901,2023-08-16,Groundwater,Sample-Routine,1.84,20.0,3.31,0.03,7.6,5.35,1.6,,20.1,,,6.0,1.0,Con excedencias,85.71428571428571,True,True,No determinada
+USGS-GA,nwisga.01.02302049,USGS-332059081594001,2023-08-17,Groundwater,Sample-Routine,1.82,20.0,3.69,0.02,6.6,5.550000000000001,1.81,27.0,19.8,,,7.0,1.0,Con excedencias,100.0,True,True,No determinada
+USGS-GA,nwisga.01.02302305,USGS-311327084484101,2023-09-12,Groundwater,Sample-Routine,3.46,246.0,125.0,0.02,4.9,7.85,0.59,136.0,21.1,,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02302306,USGS-313019084104602,2023-09-19,Groundwater,Sample-Routine,4.27,44.5,15.5,0.02,8.6,6.25,1.31,26.0,22.7,,,7.0,1.0,Con excedencias,100.0,True,True,No determinada
+USGS-GA,nwisga.01.02302308,USGS-312346084520401,2023-09-12,Groundwater,Sample-Routine,7.22,427.5,217.0,0.04,0.8,7.4,9.4,239.0,22.6,,,7.0,1.0,Con excedencias,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02302309,USGS-311714084275101,2023-09-18,Groundwater,Sample-Routine,2.39,220.5,113.0,0.02,6.6,7.8,0.67,123.0,21.7,,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02302310,USGS-311434084511701,2023-09-12,Groundwater,Sample-Routine,1.73,221.5,101.0,0.1,4.7,7.85,1.25,120.5,27.9,,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02302311,USGS-313521083501402,2023-09-18,Groundwater,Sample-Routine,19.9,202.0,65.9,0.09,6.5,4.6,3.76,87.5,24.3,,,7.0,1.0,Con excedencias,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02302312,USGS-311113084523301,2023-09-13,Groundwater,Sample-Routine,,74.0,,,7.4,4.6,,,25.4,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02302313,USGS-311015084511901,2023-09-13,Groundwater,Sample-Routine,,46.0,,,6.0,5.9,,,25.1,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02302314,USGS-310913084195301,2023-09-19,Groundwater,Sample-Routine,4.08,319.0,160.0,0.02,6.0,7.699999999999999,0.49,182.0,21.6,,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02302316,USGS-310644084241301,2023-09-14,Groundwater,Sample-Routine,6.86,294.0,138.0,0.02,7.4,7.8,0.48,156.5,21.4,,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02302317,USGS-310552084435601,2023-09-13,Groundwater,Sample-Routine,,386.0,,,8.7,7.8,,,22.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02302319,USGS-323901084085701,2023-09-20,Groundwater,Sample-Routine,5.57,57.0,17.2,,8.8,5.15,0.02,25.5,18.9,,,6.0,1.0,Con excedencias,85.71428571428571,True,True,No determinada
+USGS-GA,nwisga.01.02302320,USGS-320541084091501,2023-09-20,Groundwater,Sample-Routine,3.99,141.5,65.0,0.33,7.8,6.9,0.45,82.5,21.5,,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02302321,USGS-320001084032801,2023-09-21,Groundwater,Sample-Routine,5.07,258.0,124.0,0.04,6.8,7.75,0.26,150.0,21.0,,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02302322,USGS-315947084024001,2023-09-20,Groundwater,Sample-Routine,4.39,235.5,117.0,0.05,4.4,7.85,0.24,140.0,20.3,,,7.0,0.0,Sin excedencias observadas,100.0,True,False,No determinada
+USGS-GA,nwisga.01.02302323,USGS-314356084375901,2023-09-14,Groundwater,Sample-Routine,3.79,46.0,8.82,,9.5,4.7,0.09,22.0,20.9,,,6.0,1.0,Con excedencias,85.71428571428571,True,True,No determinada
+USGS-GA,nwisga.01.02400234,USGS-311036081302601,2023-10-24,Groundwater,Sample-Routine,119.0,707.5,,,,,,,24.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400235,USGS-311007081301701,2023-10-25,Groundwater,Sample-Routine,1000.0,4005.0,,,,,,,25.7,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400237,USGS-311007081301702,2023-10-25,Groundwater,Sample-Routine,2270.0,7990.0,,,,,,,26.3,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400238,USGS-311021081302801,2023-10-24,Groundwater,Sample-Routine,2100.0,7705.0,,,,,,,27.8,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400239,USGS-311255081312501,2023-10-23,Groundwater,Sample-Routine,,453.5,,,,,,,25.7,,,1.0,0.0,Sin excedencias observadas,14.285714285714286,True,False,No determinada
+USGS-GA,nwisga.01.02400240,USGS-310925081312201,2023-10-26,Groundwater,Sample-Routine,551.0,2440.0,,,,,,,22.6,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400241,USGS-310925081312202,2023-10-26,Groundwater,Sample-Routine,18.7,412.0,,,,,,,22.3,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400242,USGS-311027081310401,2023-10-26,Groundwater,Sample-Routine,22.4,5065.0,,,,,,,28.1,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400243,USGS-311038081305501,2023-10-26,Groundwater,Sample-Routine,325.0,1600.0,,,,,,,,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400245,USGS-311014081310802,2023-10-26,Groundwater,Sample-Routine,704.0,2920.0,,,,,,,25.2,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400246,USGS-311007081311201,2023-10-26,Groundwater,Sample-Routine,27.6,521.0,,,,,,,24.5,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400247,USGS-311037081311201,2023-10-26,Groundwater,Sample-Routine,247.0,1295.0,,,,,,,25.9,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400248,USGS-310727081285301,2023-10-23,Groundwater,Sample-Routine,53.7,585.0,,,,,,,24.1,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400249,USGS-310646081292001,2023-10-24,Groundwater,Sample-Routine,589.0,2550.0,,,,,,,24.7,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400251,USGS-311407081283401,2023-10-25,Groundwater,Sample-Routine,27.6,506.0,,,,,,,12.2,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400252,USGS-310841081294101,2023-10-25,Groundwater,Sample-Routine,1250.0,4780.0,,,,,,,27.1,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400253,USGS-310852081295401,2023-10-25,Groundwater,Sample-Routine,545.0,2295.0,,,,,,,25.8,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400254,USGS-310938081285301,2023-10-25,Groundwater,Sample-Routine,1010.0,3810.0,,,,,,,24.9,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400255,USGS-310938081285302,2023-10-25,Groundwater,Sample-Routine,31.5,489.0,,,,,,,23.6,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400256,USGS-310924081295201,2023-10-24,Groundwater,Sample-Routine,1700.0,6335.0,,,,,,,27.0,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400257,USGS-310924081295202,2023-10-24,Groundwater,Sample-Routine,345.0,1640.0,,,,,,,25.4,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400258,USGS-310822081295801,2023-10-24,Groundwater,Sample-Routine,61.7,693.5,,,,,,,24.3,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400259,USGS-310818081293701,2023-10-24,Groundwater,Sample-Routine,14.5,375.5,,,,,,,24.2,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400262,USGS-310818081294201,2023-10-26,Groundwater,Sample-Routine,2620.0,9075.0,,,,,,,27.1,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400263,USGS-310825081294201,2023-10-26,Groundwater,Sample-Routine,1880.0,6720.0,,,,,,,27.6,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400264,USGS-310750081292001,2023-10-23,Groundwater,Sample-Routine,5920.0,18100.0,,,,,,,25.4,,,2.0,2.0,Con excedencias,28.571428571428573,True,True,No determinada
+USGS-GA,nwisga.01.02400267,USGS-310822081294201,2023-10-25,Groundwater,Sample-Routine,1260.0,4775.0,,,,,,,27.3,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400268,USGS-311011081293101,2023-10-25,Groundwater,Sample-Routine,2120.0,7615.0,,,,,,,26.5,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400269,USGS-310938081285303,2023-10-25,Groundwater,Sample-Routine,219.0,1175.0,,,,,,,22.8,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400270,USGS-311016081294202,2023-10-23,Groundwater,Sample-Routine,698.0,2800.0,,,,,,,26.2,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400271,USGS-310911081294101,2023-10-24,Groundwater,Sample-Routine,1510.0,5620.0,,,,,,,24.6,,,2.0,2.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400272,USGS-310902081284301,2023-10-23,Groundwater,Sample-Routine,20.5,457.0,,,,,,,24.8,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400273,USGS-311036081285701,2023-10-23,Groundwater,Sample-Routine,48.6,563.0,,,,,,,25.3,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400274,USGS-311020081295205,2023-10-25,Groundwater,Sample-Routine,,4170.0,,,,,,,26.5,,,1.0,1.0,Con excedencias,14.285714285714286,True,False,No determinada
+USGS-GA,nwisga.01.02400275,USGS-310835081294501,2023-10-24,Groundwater,Sample-Routine,3130.0,11300.0,,,,,,,23.4,,,2.0,2.0,Con excedencias,28.571428571428573,True,True,No determinada
+USGS-GA,nwisga.01.02400277,USGS-310810081292801,2023-10-26,Groundwater,Sample-Routine,15.0,444.5,,,,,,,25.6,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400279,USGS-311028081285902,2023-10-23,Groundwater,Sample-Routine,82.1,657.5,,,,,,,27.0,,,2.0,0.0,Sin excedencias observadas,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400280,USGS-311051081295401,2023-10-26,Groundwater,Sample-Routine,146.0,880.5,,,,,,,23.9,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
+USGS-GA,nwisga.01.02400281,USGS-310748081290401,2023-10-24,Groundwater,Sample-Routine,140.0,1065.0,,,,,,,26.6,,,2.0,1.0,Con excedencias,28.571428571428573,True,False,No determinada
