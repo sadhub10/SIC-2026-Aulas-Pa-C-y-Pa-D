@@ -201,7 +201,7 @@ Se implementó un modelo supervisado **Random Forest Classifier** para identific
 | Integrante | Rol en el Equipo | Contribución Principal |
 | :--- | :--- | :--- |
 | **Jonathan Reyes** | Líder y programador | 	Desarrollo del código en Python, análisis de datos y gestión del repositorio en GitHub. |
-| **Jesús Torres** | Creación de video | Grabación y edición del video demostrativo del funcionamiento del software (60 seg). |
+| **Jesús Torres** | Creación de video | Grabación y edición del video demostrativo del funcionamiento del software. |
 | **Ivy Janssen** | Documentación | Redacción del formulario del proyecto, justificación del problema e impacto social. |
 | **David Morales** | 	Diseño de presentación | Elaboración y estructuración de las diapositivas en PowerPoint con la plantilla oficial.  |
 
