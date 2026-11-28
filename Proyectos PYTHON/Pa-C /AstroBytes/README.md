@@ -200,10 +200,10 @@ Se implementó un modelo supervisado **Random Forest Classifier** para identific
 
 | Integrante | Rol en el Equipo | Contribución Principal |
 | :--- | :--- | :--- |
-| **Jonathan Reyes** | Líder de Proyecto & analista de datos | Coordinación, diseño de arquitectura, integración GitHub. |
-| **Jesús Torres** | Creador multimedia | Pipeline de ingesta, limpieza y validación de tipos (`src/data_loader.py`). |
-| **Ivy Janssen** | Documentación | Modelos predictivos, evaluación y feature importances (`src/modeling.py`). |
-| **David Morales** |  | Pruebas estadísticas y gráficos de alta resolución (`src/visualizer.py`).  |
+| **Jonathan Reyes** | Líder y programador | 	Desarrollo del código en Python, análisis de datos y gestión del repositorio en GitHub. |
+| **Jesús Torres** | Creación de video | Grabación y edición del video demostrativo del funcionamiento del software (60 seg). |
+| **Ivy Janssen** | Documentación | Redacción del formulario del proyecto, justificación del problema e impacto social. |
+| **David Morales** | 	Diseño de presentación | Elaboración y estructuración de las diapositivas en PowerPoint con la plantilla oficial.  |
 
 ---
 
