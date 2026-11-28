@@ -1,0 +1,22 @@
+{
+  "version": "DGNTI COPANIT 21-2019 modificada por Resolución 122 de 2021",
+  "fuente": "https://asep.gob.pa/wp-content/uploads/agua/legislacion/dgnti_21-2019_mod.pdf",
+  "pagina": 2,
+  "alcance": "Comparación educativa parcial. No certifica potabilidad ni cumplimiento de todo el reglamento. No aplica valores de emergencia.",
+  "panama": {
+    "ph": {"min": 6.5, "max": 8.5, "unidad": "pH"},
+    "conductividad_uS_cm": {"max": 850, "unidad": "µS/cm"},
+    "cloruros_mg_l": {"max": 250, "unidad": "mg/L"},
+    "fluoruros_mg_l": {"max": 0.8, "unidad": "mg/L"},
+    "sulfatos_mg_l": {"max": 250, "unidad": "mg/L"},
+    "dureza_mg_l_CaCO3": {"max": 200, "unidad": "mg/L CaCO3"},
+    "tds_mg_l": {"max": 500, "unidad": "mg/L"}
+  },
+  "no_evaluados": {
+    "turbidez": "La referencia es ≤1 UNT; el archivo contiene FNU y NTRU. Se requiere verificar método y equivalencia; se conservan separados.",
+    "cloro_residual_libre": "No disponible. Referencia 2021 de 0.3 a 1.5 mg/L.",
+    "microbiologia": "No disponible; impide determinar potabilidad.",
+    "oxigeno_disuelto_mg_l": "Variable descriptiva, sin límite de potabilidad en este perfil.",
+    "temp_agua_C": "Variable descriptiva, sin límite de potabilidad en este perfil."
+  }
+}
