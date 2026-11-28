@@ -111,18 +111,12 @@ Proyecto 1 - Telemedicina/
 
 ## 🚀 Instalación y Ejecución Rápida
 
-### 1. Clonar el repositorio
-```bash
-git clone https://github.com/JonnyalReyes/TeleSalud360.git
-cd "Proyecto 1 - Telemedicina"
-```
-
-### 2. Instalar dependencias
+### 1. Instalar dependencias
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Ejecutar el pipeline analítico completo
+### 2. Ejecutar el pipeline analítico completo
 ```bash
 python AstraMed_Analytics.py
 ```
