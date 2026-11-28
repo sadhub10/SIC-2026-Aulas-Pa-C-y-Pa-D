@@ -1,6 +1,11 @@
 # Avepedia — Guía de aves de Panamá para el turismo de observación
 
 **Equipo 5Bits · Aula Pa-D · Módulo de Python · Samsung Innovation Campus**
+**Isaac Salinas (lider)
+  Antonio Gonzales 
+  Aramys Cedeño 
+  Iker Martinez
+  Cristian Muir**
 
 ## Planteamiento del problema
 
