@@ -1,5 +1,5 @@
 # AstraMed: Plataforma Analítica Predictiva para Telemedicina
-### Samsung Innovation Campus (SIC 2025/2026) - Proyecto Final Módulo Python
+### Samsung Innovation Campus (SIC 2026) - Proyecto Final Módulo Python
 
 ![Python Version](https://img.shields.io/badge/Python-3.13%2B-blue.svg?logo=python&logoColor=white)
 ![Data Analysis](https://img.shields.io/badge/Data%20Analysis-Pandas%20%7C%20NumPy-orange.svg)
