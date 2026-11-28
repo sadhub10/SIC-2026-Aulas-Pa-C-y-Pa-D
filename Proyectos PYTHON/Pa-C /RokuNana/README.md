@@ -1,6 +1,6 @@
 # AquaLytics
 
-Evaluación descriptiva y parcial de la calidad del agua con Python. Proyecto de Ricardo Vasquez (líder y desarrollador), Mario Aranda y Juan Aranda (desarrolladores), para Samsung Innovation Campus.
+Evaluación descriptiva y parcial de la calidad del agua con Python. Proyecto de Ricardo Vasquez (líder y desarrollador), Mario Aranda, Juan Aranda y Keysi Martinez (desarrolladores), para Samsung Innovation Campus.
 
 El sistema limpia los dos archivos adjuntos, reconstruye las mediciones compatibles desde el archivo original, identifica excedencias y muestra resultados mediante ocho gráficos y un panel HTML con filtros. **No aplica regresión lineal, no entrena modelos y no certifica potabilidad.** La propuesta plantea análisis descriptivo y deja la predicción para una fase posterior; no hay etiquetas independientes de potabilidad para validar un clasificador.
 
